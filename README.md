@@ -1,4 +1,4 @@
-<img width="1456" alt="Ekran Resmi 2025-07-08 09 57 29" src="https://github.com/user-attachments/assets/37d33c77-ca76-4126-84d4-be9dea8baa9e" /># 📚 Kitap Öneri Sistemi
+# 📚 Kitap Öneri Sistemi
 
 Merhaba! Bu proje, kullanıcıların kitap arayabileceği, öneri alabileceği ve detaylarına ulaşabileceği bir kitap öneri sistemidir. ASP.NET MVC yapısı kullanılarak geliştirilmiştir ve kullanıcı dostu bir arayüz ile zenginleştirilmiştir.
 
