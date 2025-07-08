@@ -1,0 +1,506 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bibliophile - Anasayfa</title>
+    <link rel="icon" href="/aroma-master/img/logoo.png" type="image/png">
+    <link rel="stylesheet" href="/aroma-master/vendors/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="/aroma-master/vendors/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="/aroma-master/vendors/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="/aroma-master/vendors/nice-select/nice-select.css">
+    <link rel="stylesheet" href="/aroma-master/vendors/owl-carousel/owl.theme.default.min.css">
+    <link rel="stylesheet" href="/aroma-master/vendors/owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="/aroma-master/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+<!--================ Start Header Menu Area =================-->
+@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor HttpContextAccessor
+
+<!--================ Start Header Menu Area =================-->
+<header class="header_area">
+    <div class="main_menu">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container align-items-center">
+                <a class="navbar-brand logo_h" href="/index">
+                    <img src="/aroma-master/img/logoo.png" alt="Bibliophile Logo" class="custom-logo" style="max-height: 8rem; width: auto;"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+                    <ul class="nav navbar-nav menu_nav ml-auto mr-auto">
+                        <li class="nav-item active"><a class="nav-link" href="/index">Anasayfa</a></li>
+                        <li class="nav-item submenu dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                               aria-expanded="false">Kitaplar</a>
+                            <ul class="dropdown-menu">
+                                <li class="nav-item"><a class="nav-link" href="/category">Kitap Kategorileri</a></li>
+                                
+                            </ul>
+                        </li>
+                        <li class="nav-item submenu dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                               aria-expanded="false">Blog</a>
+                            <ul class="dropdown-menu">
+                                <li class="nav-item"><a class="nav-link" href="/blog">Blog</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item submenu dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                               aria-expanded="false">Sayfalar</a>
+                            <ul class="dropdown-menu">
+                                <li class="nav-item"><a class="nav-link" href="/login">Login</a></li>
+                                <li class="nav-item"><a class="nav-link" href="/register">Register</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="/contact">Favoriler</a></li>
+                    </ul>
+
+                    <ul class="nav-shop">
+                        <li class="nav-item">
+                            <form asp-controller="Books" asp-action="Search" method="get" class="form-inline" style="display: flex;">
+                                <input class="form-control mr-sm-2" type="search" name="query" placeholder="Kitap veya Yazar Ara" aria-label="Search" required style="height: 2.5rem; margin-right: 0.5rem;">
+                                <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="ti-search"></i></button>
+                            </form>
+                        </li>
+
+                        @{
+                        var username = HttpContextAccessor.HttpContext?.Session.GetString("Username");
+                        }
+
+                        @if (!string.IsNullOrEmpty(username))
+                        {
+                        <li class="nav-item">
+                            <span class="nav-link text-primary">Hoşgeldin @username</span>
+                        </li>
+                        <li class="nav-item">
+                            <form method="post" asp-controller="Login" asp-action="Logout" style="margin: 0;">
+                                <button type="submit" class="nav-link text-danger" style="background: none; border: none; padding: 0;">Çıkış Yap</button>
+                            </form>
+                        </li>
+                        }
+                        else
+                        {
+                        <li class="nav-item">
+                            <a class="nav-link" href="/login">Giriş Yap</a>
+                        </li>
+                        }
+                    </ul>
+
+
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>
+
+
+
+<!--================ End Header Menu Area =================-->
+<main class="site-main">
+    <!-- Hero Banner -->
+    <section class="hero-banner">
+        <div class="container">
+            <div class="row no-gutters align-items-center pt-60px">
+                <div class="col-5 d-none d-sm-block">
+                    <div class="hero-banner__img">
+                        <img class="img-fluid" src="/aroma-master/img/home/bi.jpeg" alt="">
+                    </div>
+                </div>
+                <div class="col-sm-7 col-lg-6 offset-lg-1 pl-4 pl-md-5 pl-lg-0">
+                    <div class="hero-banner__content">
+                        <h4>Kitap Öneri Sistemi</h4>
+                        <h1>Bibliophile</h1>
+                        <p>Favorilerine ekle, bloglarda kaybol, yazarların dünyasına adım at... Sana en uygun kitap önerilerini keşfetmenin tam zamanı!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br/>
+    <br/>
+    <div class="section-intro pb-60px">
+        <p>Popüler Kitaplar</p>
+        <h2>Best <span class="section-intro__style">Sellers</span></h2>
+    </div>
+
+    @model List<KitapOneri.Models.BookWithRatingViewModel>
+
+    <div class="row">
+        @foreach (var book in Model)
+        {
+        <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+            <div class="card text-center card-product">
+                <div class="card-product__img">
+                    <img class="card-img" src="@(string.IsNullOrEmpty(book.book_img) ? "/img/product/default.png" : book.book_img)"
+                         alt="@book.name" style="height: 250px; object-fit: cover;">
+                    <ul class="card-product__imgOverlay">
+                        <!-- Detay (search) -->
+                        <li>
+                            <a href="@Url.Action("Details", "Books", new { isbn = book.isbn })">
+                                <button type="button" class="btn-book-action">
+                                    <i class="ti-search"></i>
+                                </button>
+                            </a>
+                        </li>
+
+                        <!-- Favori (kalp) -->
+                        <li>
+                            <form asp-controller="Books" asp-action="AddToWishlist" method="post" style="display:inline;">
+                                <input type="hidden" name="isbn" value="@book.isbn" />
+                                <button type="submit" class="btn-book-action">
+                                    <i class="ti-heart"></i>
+                                </button>
+                            </form>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card-body">
+                    <p>@book.author</p>
+                    <h5>@book.name</h5>
+                    <p>⭐ @book.average_rating.ToString("0.00") / 5</p>
+                </div>
+
+            </div>
+        </div>
+        }
+    </div>
+
+
+    @if (Context.Session.GetInt32("UserId") != null)
+    {
+    <div class="section-intro pb-60px">
+        <p>Sana Özel</p>
+        <h2>Kitap <span class="section-intro__style">Önerileri</span></h2>
+    </div>
+
+    <div class="row" id="recommendation-container">
+        <p>Yükleniyor...</p>
+    </div>
+
+    <script>
+        fetch('/Books/UserRecommendations')
+            .then(response => response.json())
+            .then(data => {
+                const container = document.getElementById("recommendation-container");
+                container.innerHTML = '';
+
+                if (data.length === 0) {
+                    container.innerHTML = '<p>Henüz yeterli veriye ulaşamadık 😅</p>';
+                    return;
+                }
+
+                data.forEach(book => {
+                    container.innerHTML += `
+                    <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                        <div class="card text-center card-product">
+                            <div class="card-product__img">
+                                <img class="card-img" src="${book.book_img || '/img/product/default.png'}"
+                                     alt="${book.name}" style="height: 250px; object-fit: cover;">
+                                <ul class="card-product__imgOverlay">
+                                    <!-- Detay (search) -->
+                                    <li>
+                                        <a href="/Books/Details?isbn=${book.isbn}">
+                                            <button type="button" class="btn-book-action">
+                                                <i class="ti-search"></i>
+                                            </button>
+                                        </a>
+                                    </li>
+                                    <!-- Favori (kalp) -->
+                                    <li>
+                                        <form action="/Books/AddToWishlist" method="post" style="display:inline;">
+                                            <input type="hidden" name="isbn" value="${book.isbn}" />
+                                            <button type="submit" class="btn-book-action">
+                                                <i class="ti-heart"></i>
+                                            </button>
+                                        </form>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="card-body">
+                                <p>${book.author}</p>
+                                <h5>${book.name}</h5>
+                                <p>⭐ ${book.average_rating?.toFixed(2) || '0.00'} / 5</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    `;
+                });
+            })
+            .catch(err => {
+                console.error("Öneriler alınamadı:", err);
+                document.getElementById("recommendation-container").innerHTML = "<p>Bir hata oluştu!</p>";
+            });
+    </script>
+    }
+
+
+</main>
+<!-- CSS -->
+<style>
+    .card-product {
+        margin-bottom: 15px; /* Kartlar arasındaki mesafeyi azalt */
+    }
+
+    .card-product__img {
+        height: 250px; /* Resim boyutunu küçült */
+        overflow: hidden;
+    }
+
+    .card-product__img img {
+        height: 100%; /* Resim yüksekliğini kart boyutuna uydur */
+        object-fit: cover;
+    }
+
+    .card-body {
+        padding: 8px; /* Kart içeriği için daha az padding */
+    }
+
+    .card-body h5 {
+        font-size: 1rem; /* Kitap isminin font boyutunu küçült */
+        margin: 0; /* Fazla boşlukları kaldır */
+    }
+
+    .card-body p {
+        font-size: 0.85rem; /* Diğer metinlerin font boyutunu küçült */
+        margin-bottom: 0;
+    }
+
+    .card-product__imgOverlay {
+        padding: 5px;
+    }
+
+    .card-product__imgOverlay li {
+        margin: 0 5px; /* İkonlar arasındaki mesafeyi azalt */
+    }
+
+    /* Ekran boyutlarına göre kolon sayısını optimize et */
+    .col-6 { /* Mobil ekranlar */
+        padding: 5px;
+    }
+
+    .col-md-4 { /* Tablet ekranlar */
+        padding: 10px;
+    }
+
+    .col-lg-3 { /* Büyük ekranlar */
+        padding: 15px;
+    }
+
+    .col-xl-2 { /* Extra büyük ekranlar */
+        padding: 20px;
+    }
+</style>
+
+
+<script>
+    // Bu kodu kitap detay sayfanızda veya önerilen kitapların listelendiği sayfada kullanabilirsiniz
+
+    document.addEventListener('DOMContentLoaded', function() {
+        // Kitap başlıklarına veya resimlerine tıklama olayı ekle
+        var bookLinks = document.querySelectorAll('.book-link');
+
+        bookLinks.forEach(function(link) {
+            link.addEventListener('click', function(e) {
+                // Kitap ISBN'sini elementi özelliğinden al
+                var isbn = this.getAttribute('data-isbn');
+
+                // Tıklamayı kaydet
+                recordBookClick(isbn);
+
+                // Normal link davranışını engelleme - genellikle bunu istemezsiniz
+                // e.preventDefault();
+            });
+        });
+
+        // Önerilen kitaplar için tıklama olayı ekle
+        var recommendedBookLinks = document.querySelectorAll('.recommended-book-link');
+
+        recommendedBookLinks.forEach(function(link) {
+            link.addEventListener('click', function(e) {
+                var isbn = this.getAttribute('data-isbn');
+                recordBookClick(isbn);
+            });
+        });
+
+        // Tıklamayı sunucuya gönderen fonksiyon
+        function recordBookClick(isbn) {
+            if (!isbn) return;
+
+            fetch('/Books/RecordBookClick', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'X-CSRF-TOKEN': document.querySelector('input[name="__RequestVerificationToken"]').value
+                },
+                body: JSON.stringify({ isbn: isbn })
+            })
+                .then(response => {
+                    if (!response.ok) {
+                        console.error('Tıklama kaydedilemedi');
+                    }
+                })
+                .catch(error => {
+                    console.error('Hata:', error);
+                });
+        }
+    });
+
+    document.addEventListener("DOMContentLoaded", function () {
+        const favoriteButtons = document.querySelectorAll(".favorite-button");
+
+        favoriteButtons.forEach(button => {
+            button.addEventListener("click", function () {
+                const isbn = this.getAttribute("data-isbn");
+
+                // Check if user is logged in
+                if (!isUserLoggedIn()) {
+                    redirectToLogin();
+                    return;
+                }
+
+                // Send AJAX request to add book to favorites
+                fetch('/api/book/addToFavorites', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Authorization': 'Bearer ' + getAuthToken() // Token for auth
+                    },
+                    body: JSON.stringify({ Isbn: isbn })
+                })
+                    .then(response => response.json())
+                    .then(data => {
+                        alert(data.message || "Kitap favorilere eklendi!");
+                    })
+                    .catch(error => {
+                        alert("Favorilere eklerken bir hata oluştu!");
+                    });
+            });
+        });
+
+        // Check if user is logged in
+        function isUserLoggedIn() {
+            return localStorage.getItem('auth_token') !== null;
+        }
+
+        // Redirect user to login page if not logged in
+        function redirectToLogin() {
+            window.location.href = '/Login';
+        }
+
+        // Get auth token from localStorage
+        function getAuthToken() {
+            return localStorage.getItem('auth_token');
+        }
+    });
+
+</script>
+
+<!--================ Hero Carousel start =================-->
+
+
+
+<!-- ================ offer section start ================= -->
+<section class="offer" id="parallax-1" data-anchor-target="#parallax-1" data-300-top="background-position: 20px 30px" data-top-bottom="background-position: 0 20px">
+    <div class="container">
+        <div class="row">
+
+        </div>
+    </div>
+</section>
+<!-- ================ offer section end ================= -->
+
+<!-- ================ Best Selling item  carousel ================= -->
+<section class="section-margin calc-60px">
+
+</section>
+<!-- ================ Best Selling item  carousel end ================= -->
+
+<section class="instagram_area">
+    <style>
+        .instagram_image {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1rem;
+        }
+
+        .instagram_image img {
+            width: 100%;
+            max-width: 150px;
+            height: auto;
+            aspect-ratio: 1 / 1;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+    </style>
+    <div class="container box_1620">
+        <div class="instagram_image row m0">
+            <img src="/aroma-master/img/instagram/ins-1.jpg" alt="">
+            <img src="/aroma-master/img/instagram/ins-2.jpg" alt="">
+            <img src="/aroma-master/img/instagram/ins-3.jpg" alt="">
+            <img src="/aroma-master/img/instagram/ins-4.jpg" alt="">
+            <img src="/aroma-master/img/instagram/ins-5.jpg" alt="">
+            <img src="/aroma-master/img/instagram/ins-6.jpg" alt="">
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="footer-area">
+        <div class="container">
+            <div class="row section_gap justify-content-center">
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="single-footer-widget tp_widgets" style="text-align: center;">
+                        <h4 class="footer_title large_title">Misyonumuz</h4>
+                        <p>
+                            Bilgisayar mühendisliği bilgi birikimimizi, okuma kültürünü destekleyecek akıllı sistemler geliştirmek için kullanıyoruz. Amacımız, kullanıcıların ilgi alanlarına uygun kitapları verimli ve doğru şekilde öneren bir sistem tasarlamak.
+                        </p>
+                        <p>
+                            Bu bitirme projesi, yalnızca bir yazılım geliştirme süreci değil; algoritmalarla insanların okuma alışkanlıklarını buluşturan bir inovasyon girişimidir. Kitapları keşfetmenin dijital anahtarı artık parmaklarınızın ucunda.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="single-footer-widget tp_widgets" style="text-align: center;">
+                        <h4 class="footer_title">İletişim</h4>
+                        <div>
+                            <p class="sm-head">
+                                <i class="fa-brands fa-github"></i>
+                                GitHub
+                            </p>
+                            <p>
+                                <a href="https://github.com/zeynephelinaydin" target="_blank">Zeynep Helin Aydın</a><br>
+                                <a href="https://github.com/rabisozcan" target="_blank">Rabia Özcan</a><br>
+                                <a href="https://github.com/BegumUlgen" target="_blank">Begüm Ülgen</a>
+                            </p>
+
+                            <p class="sm-head">
+                                <i class="fa fa-envelope"></i>
+                                Email
+                            </p>
+                            <p>
+                                <a href="mailto:zeyhel2002@gmail.com">zeyhel2002@gmail.com</a><br>
+                                <a href="mailto:r3ozcan@gmail.com">r3ozcan@gmail.com</a><br>
+                                <a href="mailto:begumulgenn@gmail.com">begum0110@hotmail.com</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</footer>
+</body>
+</html>

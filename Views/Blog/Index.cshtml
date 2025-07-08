@@ -1,0 +1,348 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Blog</title>
+    <link rel="icon" href="/aroma-master/img/Fevicon.png" type="image/png">
+
+    <!-- Vendor CSS -->
+    <link rel="stylesheet" href="/aroma-master/vendors/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="/aroma-master/vendors/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="/aroma-master/vendors/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="/aroma-master/vendors/linericon/style.css">
+    <link rel="stylesheet" href="/aroma-master/vendors/owl-carousel/owl.theme.default.min.css">
+    <link rel="stylesheet" href="/aroma-master/vendors/owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="/aroma-master/vendors/nice-select/nice-select.css">
+    <link rel="stylesheet" href="/aroma-master/vendors/nouislider/nouislider.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="/aroma-master/css/style.css">
+
+    <!-- Custom CSS (optional) -->
+    <style>
+        .custom-logo {
+            max-height: 8rem;
+            width: auto;
+        }
+    </style>
+</head>
+
+<body>
+<!--================ Start Header Menu Area =================-->
+<header class="header_area">
+    <div class="main_menu">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container align-items-center">
+                <a class="navbar-brand logo_h" href="/index">
+                    <img src="/aroma-master/img/logoo.png" alt="Bibliophile Logo" class="custom-logo" style="max-height: 8rem; width: auto;"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+                    <ul class="nav navbar-nav menu_nav ml-auto mr-auto">
+                        <li class="nav-item active"><a class="nav-link" href="/index">Anasayfa</a></li>
+                        <li class="nav-item submenu dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                               aria-expanded="false">Kitaplar</a>
+                            <ul class="dropdown-menu">
+                                <li class="nav-item"><a class="nav-link" href="/category">Kitap Kategorileri</a></li>
+
+                            </ul>
+                        </li>
+                        <li class="nav-item submenu dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                               aria-expanded="false">Blog</a>
+                            <ul class="dropdown-menu">
+                                <li class="nav-item"><a class="nav-link" href="/blog">Blog</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item submenu dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                               aria-expanded="false">Sayfalar</a>
+                            <ul class="dropdown-menu">
+                                <li class="nav-item"><a class="nav-link" href="/login">Login</a></li>
+                                <li class="nav-item"><a class="nav-link" href="/register">Register</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="/contact">Favoriler</a></li>
+                    </ul>
+
+                    <ul class="nav-shop">
+                        <li class="nav-item">
+                            <form asp-controller="Books" asp-action="Search" method="get" class="form-inline" style="display: flex;">
+                                <input class="form-control mr-sm-2" type="search" name="query" placeholder="Kitap veya Yazar Ara" aria-label="Search" required style="height: 2.5rem; margin-right: 0.5rem;">
+                                <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="ti-search"></i></button>
+                            </form>
+                        </li>
+
+                        @{
+                        var username = HttpContextAccessor.HttpContext?.Session.GetString("Username");
+                        }
+
+                        @if (!string.IsNullOrEmpty(username))
+                        {
+                        <li class="nav-item">
+                            <span class="nav-link text-primary">Hoşgeldin @username</span>
+                        </li>
+                        <li class="nav-item">
+                            <form method="post" asp-controller="Login" asp-action="Logout" style="margin: 0;">
+                                <button type="submit" class="nav-link text-danger" style="background: none; border: none; padding: 0;">Çıkış Yap</button>
+                            </form>
+                        </li>
+                        }
+                        else
+                        {
+                        <li class="nav-item">
+                            <a class="nav-link" href="/login">Giriş Yap</a>
+                        </li>
+                        }
+                    </ul>
+
+
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>
+<!--================ End Header Menu Area =================-->
+
+
+<!-- ================ start banner area ================= -->
+<section class="blog-banner-area" id="blog">
+    <div class="container h-100">
+        <div class="blog-banner">
+            <div class="text-center">
+                <h1>Kalemin Ardındaki Dram</h1>
+                <h2>Trajik Hayatlarıyla Unutulmaz 5 Yazar</h2>
+            </div>
+        </div>
+    </div>
+</section>
+<br>    </br>
+<!-- ================ end banner area ================= -->
+
+
+<!--================Blog Categorie Area =================-->
+
+<!--================Blog Categorie Area =================-->
+
+<!--================Blog Area =================-->
+<section class="blog_area">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="blog_left_sidebar">
+                    <article class="row blog_item">
+                
+                        <div class="col-md-9">
+                            <div class="blog_post">
+                                <img src="/aroma-master/img/blog/main-blog/zweig1.jpg" alt="">
+                                <div class="blog_details">
+                                    <a href="/Blog/Detail/1">
+                                        <h2>Stefan Zweig: Umutsuzluğun Kalemi</h2>
+                                    </a>
+                                    <p>Savaşın ve sürgünün gölgesinde yazan Zweig, Avrupa’nın yok oluşuna tanıklık etti. İçindeki umutsuzluk, onu trajik bir sona sürükledi…</p>
+                                    <a class="button button-blog" href="/Blog/Detail/1">Oku</a>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="row blog_item">
+                        
+                           
+                     
+                        <div class="col-md-9">
+                            <div class="blog_post">
+                                <img src="/aroma-master/img/blog/main-blog/sylvia1.jpeg" alt="">
+                                <div class="blog_details">
+                                    <a href="/Blog/Detail/2">
+                                        <h2>Sylvia Plath: Karanlığın Şiiri</h2>
+                                    </a>
+                                    <p>İçindeki fırtınalarla savaşan bir kalem… Sylvia Plath, varoluş sancılarını mısralara dökerken, karanlığın içinde kayboldu.</p>
+                                    <a href="/Blog/Detail/2" class="button button-blog">Oku</a>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="row blog_item">
+                      
+              
+                         
+                  
+                        <div class="col-md-9">
+                            <div class="blog_post">
+                                <img src="/aroma-master/img/blog/main-blog/virginia.jpeg" alt="">
+                                <div class="blog_details">
+                                    <a href="/Blog/Detail/3">
+                                        <h2>Virginia Woolf: Sessizliğe Karşı Bir Çığlık</h2>
+                                    </a>
+                                    <p>Zihin dalgaları arasında boğulan bir kadın... Virginia Woolf, kelimelerin içinde çırpınırken, içsel sessizliğin sonsuzluğuna göçtü.</p>
+                                    <a href="/Blog/Detail/3" class="button button-blog">Oku</a>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="row blog_item">
+                        
+                     
+                 
+                        <div class="col-md-9">
+                            <div class="blog_post">
+                                <img src="/aroma-master/img/blog/main-blog/dostoevsky.jpeg" alt="">
+                                <div class="blog_details">
+                                    <a href="/Blog/Detail/4">
+                                        <h2>Fyodor Dostoyevski: Acının İçinden Doğan Dâhi</h2>
+                                    </a>
+                                    <p>İnfaz mangasından edebiyatın zirvesine... Dostoyevski'nin kalemi, acının en saf halinden beslendi.</p>
+                                    <a href="/Blog/Detail/4" class="button button-blog">Oku</a>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="row blog_item">
+            
+                        
+                       
+                        <div class="col-md-9">
+                            <div class="blog_post">
+                                <img src="/aroma-master/img/blog/main-blog/yukio.jpeg" alt="">
+                                <div class="blog_details">
+                                    <a href="/Blog/Detail/5">
+                                        <h2>Yukio Mishima: Onurun ve Ölümün Yazarı</h2>
+                                    </a>
+                                    <p>Modernleşmeye direnen bir samuray ruhu… Mishima, kalemiyle başkaldırdı, kılıcıyla veda etti.</p>
+                                    <a href="/Blog/Detail/5" class="button button-blog">Oku</a>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="blog_right_sidebar">
+                    <aside class="single_sidebar_widget author_widget">
+                        <img class="author_img rounded-circle" src="/aroma-master/img/blog/author.jpg" alt="">
+                        <h4>Zeynep Helin AYDIN</h4>
+                        <h4>Rabia ÖZCAN</h4>
+                        <h4>Begüm ÜLGEN</h4>
+                        <div class="social_icon">
+                            <a href="#">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                        <p>
+                            Edebiyatın karanlık köşelerinde kaybolmuş beş büyük yazarın, gözlerden uzak kalmış trajik yaşam öykülerini bu projede gün yüzüne çıkarmak istedik. Üç kişilik ekibimizle hazırladığımız bu blogda, kelimelerin ardındaki acıları, yalnızlıkları ve mücadeleleri sizlerle buluşturuyoruz.
+                        </p>
+
+                        <div class="br"></div>
+                    </aside>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--================Blog Area =================-->
+<section class="instagram_area">
+    <style>
+        .instagram_image {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1rem;
+        }
+
+        .instagram_image img {
+            width: 100%;
+            max-width: 150px;
+            height: auto;
+            aspect-ratio: 1 / 1;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+    </style>
+    <div class="container box_1620">
+        <div class="instagram_image row m0">
+            <img src="/aroma-master/img/instagram/ins-1.jpg" alt="">
+            <img src="/aroma-master/img/instagram/ins-2.jpg" alt="">
+            <img src="/aroma-master/img/instagram/ins-3.jpg" alt="">
+            <img src="/aroma-master/img/instagram/ins-4.jpg" alt="">
+            <img src="/aroma-master/img/instagram/ins-5.jpg" alt="">
+            <img src="/aroma-master/img/instagram/ins-6.jpg" alt="">
+        </div>
+    </div>
+</section>
+
+<!--================ Start footer Area  =================-->
+<footer>
+    <div class="footer-area">
+        <div class="container">
+            <div class="row section_gap justify-content-center">
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="single-footer-widget tp_widgets" style="text-align: center;">
+                        <h4 class="footer_title large_title">Misyonumuz</h4>
+                        <p>
+                            Bilgisayar mühendisliği bilgi birikimimizi, okuma kültürünü destekleyecek akıllı sistemler geliştirmek için kullanıyoruz. Amacımız, kullanıcıların ilgi alanlarına uygun kitapları verimli ve doğru şekilde öneren bir sistem tasarlamak.
+                        </p>
+                        <p>
+                            Bu bitirme projesi, yalnızca bir yazılım geliştirme süreci değil; algoritmalarla insanların okuma alışkanlıklarını buluşturan bir inovasyon girişimidir. Kitapları keşfetmenin dijital anahtarı artık parmaklarınızın ucunda.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="single-footer-widget tp_widgets" style="text-align: center;">
+                        <h4 class="footer_title">Favoriler</h4>
+                        <div>
+                            <p class="sm-head">
+                                <i class="fa-brands fa-github"></i>
+                                GitHub
+                            </p>
+                            <p>
+                                <a href="https://github.com/zeynephelinaydin" target="_blank">Zeynep Helin Aydın</a><br>
+                                <a href="https://github.com/rabisozcan" target="_blank">Rabia Özcan</a><br>
+                                <a href="https://github.com/BegumUlgen" target="_blank">Begüm Ülgen</a>
+                            </p>
+
+                            <p class="sm-head">
+                                <i class="fa fa-envelope"></i>
+                                Email
+                            </p>
+                            <p>
+                                <a href="mailto:zeyhel2002@gmail.com">zeyhel2002@gmail.com</a><br>
+                                <a href="mailto:r3ozcan@gmail.com">r3ozcan@gmail.com</a><br>
+                                <a href="mailto:begumulgenn@gmail.com">begum0110@hotmail.com</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+</footer>
+<!--================ End footer Area  =================-->
+
+<script src="/aroma-master/vendors/jquery/jquery-3.2.1.min.js"></script>
+<script src="/aroma-master/vendors/bootstrap/bootstrap.bundle.min.js"></script>
+<script src="/aroma-master/vendors/skrollr.min.js"></script>
+<script src="/aroma-master/vendors/owl-carousel/owl.carousel.min.js"></script>
+<script src="/aroma-master/vendors/nice-select/jquery.nice-select.min.js"></script>
+<script src="/aroma-master/vendors/jquery.ajaxchimp.min.js"></script>
+<script src="/aroma-master/vendors/mail-script.js"></script>
+<script src="/aroma-master/js/main.js"></script>
+</body>
+

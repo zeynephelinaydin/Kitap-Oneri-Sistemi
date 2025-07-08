@@ -1,0 +1,175 @@
+@model List<KitapOneri.Models.BookWithRatingViewModel>
+<link rel="stylesheet" href="~/css/favorites.css" />
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Bibliophile - Favorilerim</title>
+	<link rel="icon" href="/aroma-master/img/logoo.png" type="image/png">
+	<link rel="stylesheet" href="/aroma-master/vendors/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="/aroma-master/vendors/fontawesome/css/all.min.css">
+	<link rel="stylesheet" href="/aroma-master/vendors/themify-icons/themify-icons.css">
+	<link rel="stylesheet" href="/aroma-master/css/style.css">
+
+</head>
+<body>
+<!--================ Header Alanı =================-->
+<header class="header_area">
+	<div class="main_menu">
+		<nav class="navbar navbar-expand-lg navbar-light">
+			<div class="container align-items-center">
+				<a class="navbar-brand logo_h" href="/Home/Index">
+					<img src="/aroma-master/img/logoo.png" alt="Bibliophile Logo" class="custom-logo" style="max-height: 8rem; width: auto;">
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+				        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+					<ul class="nav navbar-nav menu_nav ml-auto mr-auto">
+						<li class="nav-item"><a class="nav-link" href="/index">Anasayfa</a></li>
+						<li class="nav-item"><a class="nav-link" href="/category">Kitaplar</a></li>
+						<li class="nav-item"><a class="nav-link" href="/blog">Blog</a></li>
+						<li class="nav-item active"><a class="nav-link" href="/Books/MyFavorites">Favorilerim</a></li>
+					</ul>
+
+					<ul class="nav-shop">
+						@{
+						var username = HttpContextAccessor.HttpContext?.Session.GetString("Username");
+						}
+						@if (!string.IsNullOrEmpty(username))
+						{
+						<li class="nav-item">
+							<span class="nav-link text-primary">Hoşgeldin @username</span>
+						</li>
+						<li class="nav-item">
+							<form method="post" asp-controller="Login" asp-action="Logout" style="margin: 0;">
+								<button type="submit" class="nav-link text-danger" style="background: none; border: none; padding: 0;">Çıkış Yap</button>
+							</form>
+						</li>
+						}
+						else
+						{
+						<li class="nav-item">
+							<a class="nav-link" href="/login">Giriş Yap</a>
+						</li>
+						}
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</div>
+</header>
+
+<!--================ Favoriler Bölümü =================-->
+<section class="favorites-section">
+	<div class="container">
+		<div class="favorites-header">
+			<h2>Favori Kitaplarınız</h2>
+			<p>Beğendiğiniz kitapların listesi</p>
+		</div>
+
+		<div class="row">
+			
+			@if (Model != null && Model.Count > 0)
+			{
+			foreach (var book in Model)
+			{
+			<div class="col-12 col-md-6 col-lg-4 col-xl-3">
+				<div class="book-card">
+					<div class="book-img-container">
+						<img class="book-img" src="@(string.IsNullOrEmpty(book.book_img) ? "/img/product/default.png" : book.book_img)" alt="@book.name">
+						<div class="book-overlay">
+							<div class="action-buttons">
+								<a href="@Url.Action("Details", "Books", new { isbn = book.isbn })" class="btn-action btn-details" title="Detaylar">
+									<i class="ti-search"></i>
+								</a>
+								<form asp-controller="Books" asp-action="RemoveFromWishlist" method="post" style="display:inline;">
+									<input type="hidden" name="isbn" value="@book.isbn" />
+									<button type="submit" class="btn-action btn-remove" title="Kaldır">
+										<i class="ti-trash"></i>
+									</button>
+								</form>
+							</div>
+						</div>
+					</div>
+					<div class="book-info">
+						<h3 class="book-title">@book.name</h3>
+						<p class="book-author">@book.author</p>
+						<div class="book-rating">
+							<div class="stars">
+								@for (int i = 1; i <= 5; i++)
+								{
+								<i class="fa @(i <= book.average_rating ? "fa-star" : "fa-star-o")"></i>
+								}
+							</div>
+							<span class="rating-value">@book.average_rating.ToString("0.00")</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			}
+			}
+			else
+			{
+			<div class="col-12">
+				<div class="empty-favorites">
+					<i class="ti-heart-broken"></i>
+					<h3>Favori listeniz boş</h3>
+					<p>Beğendiğiniz kitapları favorilerinize ekleyerek burada görebilirsiniz.</p>
+					<a href="/category" class="btn btn-explore">
+						<i class="ti-book mr-2"></i> Kitapları Keşfet
+					</a>
+				</div>
+			</div>
+			}
+		</div>
+	</div>
+</section>
+
+<!--================ Footer Alanı =================-->
+<footer class="footer-area">
+	<div class="container">
+		<div class="row section_gap justify-content-center">
+			<div class="col-lg-4 col-md-6 col-sm-6">
+				<div class="single-footer-widget tp_widgets text-center">
+					<h4 class="footer_title">Misyonumuz</h4>
+					<p>
+						Okuma kültürünü destekleyen akıllı kitap öneri sistemleri geliştiriyoruz.
+						Kullanıcıların ilgi alanlarına uygun kitapları keşfetmelerini sağlıyoruz.
+					</p>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6 col-sm-6">
+				<div class="single-footer-widget tp_widgets text-center">
+					<h4 class="footer_title">İletişim</h4>
+					<div class="contact-info">
+						<p><i class="fa-brands fa-github mr-2"></i>
+							<a href="https://github.com/zeynephelinaydin" target="_blank">Zeynep</a> |
+							<a href="https://github.com/rabisozcan" target="_blank">Rabia</a> |
+							<a href="https://github.com/BegumUlgen" target="_blank">Begüm</a>
+						</p>
+						<p><i class="fa fa-envelope mr-2"></i> bibliophile@example.com</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row footer-bottom justify-content-center">
+			<div class="col-lg-8 text-center">
+				<p class="copyright">© 2023 Bibliophile. Tüm hakları saklıdır.</p>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<!-- Scriptler -->
+<script src="/aroma-master/vendors/jquery/jquery-3.2.1.min.js"></script>
+<script src="/aroma-master/vendors/bootstrap/bootstrap.bundle.min.js"></script>
+<script src="/aroma-master/vendors/nice-select/jquery.nice-select.min.js"></script>
+<script src="/aroma-master/js/main.js"></script>
+</body>
+</html>

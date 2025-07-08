@@ -1,0 +1,565 @@
+@model KitapOneri.ViewModels.BookDetailsViewModel
+@{
+Layout = "~/Views/Shared/_Layout.cshtml";
+var currentUrl = $"/Books/Details/{Model.Book.isbn}";
+}
+@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor HttpContextAccessor
+
+<link rel="icon" href="/aroma-master/img/logoo.png" type="image/png">
+<link rel="stylesheet" href="/aroma-master/vendors/bootstrap/bootstrap.min.css">
+<link rel="stylesheet" href="/aroma-master/vendors/fontawesome/css/all.min.css">
+<link rel="stylesheet" href="/aroma-master/vendors/themify-icons/themify-icons.css">
+<link rel="stylesheet" href="/aroma-master/vendors/nice-select/nice-select.css">
+<link rel="stylesheet" href="/aroma-master/vendors/owl-carousel/owl.theme.default.min.css">
+<link rel="stylesheet" href="/aroma-master/vendors/owl-carousel/owl.carousel.min.css">
+<link rel="stylesheet" href="/aroma-master/css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<!--================ Start Header Menu Area =================-->
+<header class="header_area">
+    <div class="main_menu">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container align-items-center">
+                <a class="navbar-brand logo_h" href="/Home/Index">
+                    <img src="/aroma-master/img/logoo.png" alt="Bibliophile Logo" class="custom-logo" style="max-height: 8rem; width: auto;">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+                    <ul class="nav navbar-nav menu_nav ml-auto mr-auto">
+                        <li class="nav-item active"><a class="nav-link" href="/index">Anasayfa</a></li>
+                        <li class="nav-item submenu dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Kitaplar</a>
+                            <ul class="dropdown-menu">
+                                <li class="nav-item"><a class="nav-link" href="/category">Kitap Kategorileri</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item submenu dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Blog</a>
+                            <ul class="dropdown-menu">
+                                <li class="nav-item"><a class="nav-link" href="/blog">Blog</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item submenu dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Sayfalar</a>
+                            <ul class="dropdown-menu">
+                                <li class="nav-item"><a class="nav-link" href="/login">Login</a></li>
+                                <li class="nav-item"><a class="nav-link" href="/register">Register</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="/contact">Favoriler</a></li>
+                    </ul>
+
+                    <ul class="nav-shop">
+                        <li class="nav-item">
+                            <form asp-controller="Books" asp-action="Search" method="get" class="form-inline" style="display: flex;">
+                                <input class="form-control mr-sm-2" type="search" name="query" placeholder="Kitap veya Yazar Ara" aria-label="Search" required style="height: 2.5rem; margin-right: 0.5rem;">
+                                <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="ti-search"></i></button>
+                            </form>
+                        </li>
+                        @{
+                        var username = HttpContextAccessor.HttpContext?.Session.GetString("Username");
+                        }
+                        @if (!string.IsNullOrEmpty(username))
+                        {
+                        <li class="nav-item">
+                            <span class="nav-link text-primary">Hoşgeldin, @username</span>
+                        </li>
+                        <li class="nav-item">
+                            <form method="post" asp-controller="Login" asp-action="Logout" style="margin: 0;">
+                                <button type="submit" class="nav-link text-danger" style="background: none; border: none; padding: 0;">Çıkış Yap</button>
+                            </form>
+                        </li>
+                        }
+                        else
+                        {
+                        <li class="nav-item">
+                            <a class="nav-link" href="/login">Giriş Yap</a>
+                        </li>
+                        }
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>
+<!--================ End Header Menu Area =================-->
+<!--================ Author Biography Area =================-->
+<section class="author_bio_area" style="padding: 5px 0; background-color: #f9f9f9;">
+    <div class="container" style="padding: 0;">
+        <div class="row" style="margin: 0;">
+            <div class="col-lg-12" style="padding: 0;">
+                <div class="author_bio_text" style="padding: 10px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); border-radius: 6px;">
+                    <h4 style="margin-bottom: 8px;">Yazarın Biyografisi</h4>
+                    <p style="font-size: 1rem; line-height: 1.4; margin: 0;">
+                        @(Model.Book.Author != null && !string.IsNullOrWhiteSpace(Model.Book.Author.Biography)
+                        ? Model.Book.Author.Biography
+                        : "Bu yazar hakkında henüz bir biyografi bulunmamaktadır.")
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--================Product Details Area =================-->
+<section class="product_image_area py-4">
+    <div class="container">
+        <div class="row s_product_inner no-gutters align-items-start">
+            <!-- Görsel: %55 genişlik -->
+            <div class="col-lg-6 pr-lg-4">
+                <div class="s_product_img">
+                    <img class="img-fluid shadow-sm"
+                         src="@(string.IsNullOrEmpty(Model.Book.book_img) ? "/img/product/default.png" : Model.Book.book_img)"
+                         alt="@Model.Book.name"
+                         style="max-height: 550px; width: auto; object-fit: contain; border-radius: 6px;">
+                </div>
+            </div>
+
+            <!-- Kitap Detayları: %45 genişlik -->
+            <div class="col-lg-6 pl-lg-4">
+                <div class="s_product_text p-0">
+                    <h2 class="mb-2" style="font-size:1.8rem; line-height:1.3;">@Model.Book.name</h2>
+                    <h4 class="text-muted mb-3" style="font-size:1.1rem;">@Model.Book.author</h4>
+
+                    @if (Model.Book.rating != null && Model.Book.rating.average_rating != 0)
+                    {
+                    <div class="rating-stars d-flex align-items-center mb-3">
+                        @for (int i = 1; i <= 5; i++)
+                        {
+                        <i class="fa @(i <= Model.Book.rating.average_rating ? "fa-star text-warning" : "fa-star-o text-muted")" style="font-size:1.1rem;"></i>
+                        }
+                        <span class="ml-2 font-weight-bold text-dark" style="font-size:1rem;">@Model.Book.rating.average_rating.ToString("0.00")</span>
+                    </div>
+                    }
+                    else
+                    {
+                    <p class="text-muted mb-3" style="font-size:0.95rem;">Puan yok</p>
+                    }
+
+                    <!-- Sekmeler -->
+                    <ul class="nav nav-tabs mb-3" id="bookTabs" role="tablist" style="border-bottom:1px solid #dee2e6;">
+                        <li class="nav-item">
+                            <a class="nav-link active py-2 px-3" id="description-tab" data-toggle="tab" href="#description" role="tab" aria-controls="description" aria-selected="true" style="font-size:0.95rem;">Açıklama</a>
+                        </li>
+                    </ul>
+
+                    <!-- Tab İçerikleri -->
+                    <div class="tab-content mb-4" id="bookTabsContent" style="max-height: 250px; overflow-y: auto;">
+                        <div class="tab-pane fade show active" id="description" role="tabpanel" aria-labelledby="description-tab">
+                            @if (!string.IsNullOrWhiteSpace(Model.Book.explanation))
+                            {
+                            <p style="line-height:1.5; font-size:0.95rem; color:#495057;">@Model.Book.explanation</p>
+                            }
+                            else
+                            {
+                            <p class="text-muted" style="font-size:0.95rem;">Bu kitap için açıklama bulunamadı.</p>
+                            }
+                        </div>
+                    </div>
+
+                    <!-- Kitap Bilgileri ve Butonlar -->
+                    <div class="d-flex flex-wrap justify-content-between align-items-center border-top pt-3">
+                        <ul class="list-unstyled mb-3 mr-3" style="font-size:0.9rem;">
+                            <li class="mb-1"><strong class="text-dark">ISBN:</strong> @Model.Book.isbn</li>
+                            <li><strong class="text-dark">Tür:</strong> @Model.Book.genre</li>
+                        </ul>
+
+                        <form method="post" action="/Books/AddToWishlist" class="mb-3">
+                            @Html.AntiForgeryToken()
+                            <input type="hidden" name="isbn" value="@Model.Book.isbn" />
+                            <button type="submit" class="btn btn-outline-danger btn-sm px-3 py-2" style="font-size:0.9rem;">
+                                <i class="ti-heart mr-1"></i> Favorilere Ekle
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<style>
+    .btn-book-action {
+        border-radius: 6px;
+        transition: all 0.3s ease;
+        box-shadow: 0 3px 6px rgba(220,53,69,0.3);
+    }
+
+    .btn-book-action:hover {
+        background-color: #dc3545;
+        color: white;
+        transform: translateY(-3px);
+        box-shadow: 0 8px 15px rgba(220,53,69,0.5);
+    }
+
+    
+    .s_product_text {
+        padding-left: 0 !important;
+        margin-top: 30px;
+    }
+    
+</style>
+
+<script>
+    $(function () {
+        $('#myTab a').on('click', function (e) {
+            e.preventDefault()
+            $(this).tab('show')
+        })
+    });
+</script>
+
+
+
+
+<!-- Değerlendirme Dağılımı -->
+<section class="section-margin">
+    <div class="container">
+        <h4 class="mb-4" style="font-size: 1.4rem; font-weight: 600; color: #343a40;">Değerlendirme Dağılımı</h4>
+        <div class="rating-distribution" style="max-width: 500px;">
+            @{
+            var totalRatings = (Model.rating?.five_star_count ?? 0) +
+            (Model.rating?.four_star_count ?? 0) +
+            (Model.rating?.three_star_count ?? 0) +
+            (Model.rating?.two_star_count ?? 0) +
+            (Model.rating?.one_star_count ?? 0);
+            }
+
+            @for (int i = 5; i >= 1; i--)
+            {
+            var starCount = i switch {
+            5 => Model.rating?.five_star_count ?? 0,
+            4 => Model.rating?.four_star_count ?? 0,
+            3 => Model.rating?.three_star_count ?? 0,
+            2 => Model.rating?.two_star_count ?? 0,
+            1 => Model.rating?.one_star_count ?? 0,
+            _ => 0
+            };
+
+            var percentage = totalRatings > 0 ? (starCount * 100 / totalRatings) : 0;
+
+            <div class="rating-row mb-2">
+                <div class="d-flex align-items-center">
+                        <span class="mr-2" style="width: 80px; font-size: 1rem; color: #495057;">
+                            @i yıldız
+                        </span>
+                    <div class="progress flex-grow-1" style="height: 20px; background-color: #e9ecef; border-radius: 10px;">
+                        <div class="progress-bar bg-warning" role="progressbar" style="width: @percentage%;"
+                             aria-valuenow="@percentage" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span class="ml-2" style="font-size: 0.9rem; color: #6c757d; min-width: 40px; text-align: right;">
+                            @starCount
+                        </span>
+                </div>
+            </div>
+            }
+        </div>
+    </div>
+</section>
+
+<!-- Yorum ve Oylama Kısmı -->
+<section class="section-margin">
+    <div class="container">
+        <h4 class="mb-4" style="font-size: 1.4rem; font-weight: 600; color: #343a40;">Puan Ver</h4>
+
+        <div class="rating-section mb-4">
+            <p class="mb-2" style="font-size: 1rem; color: #495057;">Derecelendirmeniz:</p>
+            <div class="star-rating">
+                @for (int i = 1; i <= 5; i++)
+                {
+                <a href="javascript:void(0);" class="star" data-rating="@i"
+                   style="text-decoration: none; margin-right: 5px;">
+                    <i class="far fa-star" style="font-size: 28px; color: #f5c518; transition: all 0.2s;"></i>
+                </a>
+                }
+                <span id="rating-result" class="ml-2" style="font-size: 1rem; color: #495057;"></span>
+            </div>
+        </div>
+
+        <form id="rating-form" method="post" action="/Books/Rate" style="max-width: 500px;">
+            @Html.AntiForgeryToken()
+            <input type="hidden" id="selected-rating" name="rating" value="0" />
+            <input type="hidden" name="isbn" value="@Model.Book.isbn" />
+
+            <div class="form-group">
+                <input class="form-control py-2" name="email" type="email" placeholder="E-posta adresiniz"
+                       style="font-size: 1rem;" required />
+            </div>
+
+            <div class="form-group text-right mt-4">
+                <button type="submit" class="btn btn-primary px-4 py-2"
+                        style="font-size: 1rem; font-weight: 500;">
+                    Gönder
+                </button>
+            </div>
+        </form>
+    </div>
+</section>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const stars = document.querySelectorAll('.star');
+        const ratingResult = document.getElementById('rating-result');
+        const selectedRating = document.getElementById('selected-rating');
+
+        stars.forEach(star => {
+            star.addEventListener('mouseover', function() {
+                const rating = this.getAttribute('data-rating');
+                highlightStars(rating);
+            });
+
+            star.addEventListener('click', function() {
+                const rating = this.getAttribute('data-rating');
+                selectedRating.value = rating;
+                ratingResult.textContent = rating + ' yıldız seçtiniz';
+            });
+        });
+
+        function highlightStars(rating) {
+            stars.forEach(star => {
+                const starRating = star.getAttribute('data-rating');
+                const icon = star.querySelector('i');
+
+                if (starRating <= rating) {
+                    icon.classList.remove('far');
+                    icon.classList.add('fas');
+                } else {
+                    icon.classList.remove('fas');
+                    icon.classList.add('far');
+                }
+            });
+        }
+    });
+</script>
+
+
+<!--================ Related Product Area =================-->
+<section class="related-product-area section-margin--small mt-4">
+    <div class="container">
+        <div class="section-intro pb-60px">
+            <p>Kitap Önerisi</p>
+            <h2>Önerilen <span>Kitaplar</span></h2>
+        </div>
+
+        @if (Model.RecommendedBooks != null && Model.RecommendedBooks.Any())
+        {
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-6 g-4 mt-3">
+                @foreach (var book in Model.RecommendedBooks)
+                {
+                    <div class="col">
+                        <div class="card h-100 shadow-sm">
+                            <a href="@Url.Action("Details", "Books", new { isbn = book.isbn })">
+                                <img src="@(string.IsNullOrEmpty(book.book_img) ? "/img/product/default.png" : book.book_img)"
+                                     class="card-img-top"
+                                     alt="@book.name"
+                                     style="height: 250px; object-fit: cover;">
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <a href="@Url.Action("Details", "Books", new { isbn = book.isbn })" class="text-decoration-none text-dark">@book.name</a>
+                                </h5>
+                                <p class="card-text text-muted">@book.author</p>
+                                @if (book.rating != null && book.rating.average_rating != 0)
+                                {
+                                    <div class="rating-stars">
+                                        @for (int i = 1; i <= 5; i++)
+                                        {
+                                            <i class="fa @(i <= book.rating.average_rating ? "fa-star text-warning" : "fa-star-o text-secondary")"></i>
+                                        }
+                                        <span class="ml-2">@book.rating.average_rating.ToString("0.00")</span>
+                                    </div>
+                                }
+                                else
+                                {
+                                    <small class="text-muted">Puan yok</small>
+                                }
+                            </div>
+                            <div class="card-footer bg-white">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <a href="@Url.Action("Details", "Books", new { isbn = book.isbn })" class="btn btn-sm btn-outline-primary">Detaylar</a>
+                                    <small class="text-muted">@book.genre</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        }
+        else
+        {
+            <div class="alert alert-warning">
+                Şu anda benzer kitaplar bulunmamaktadır.
+            </div>
+        }
+    </div>
+</section>
+<section class="instagram_area">
+    <style>
+        .instagram_image {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1rem;
+        }
+
+        .instagram_image img {
+            width: 100%;
+            max-width: 150px;
+            height: auto;
+            aspect-ratio: 1 / 1;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+    </style>
+    <div class="container box_1620">
+        <div class="instagram_image row m0">
+            <img src="/aroma-master/img/instagram/ins-1.jpg" alt="">
+            <img src="/aroma-master/img/instagram/ins-2.jpg" alt="">
+            <img src="/aroma-master/img/instagram/ins-3.jpg" alt="">
+            <img src="/aroma-master/img/instagram/ins-4.jpg" alt="">
+            <img src="/aroma-master/img/instagram/ins-5.jpg" alt="">
+            <img src="/aroma-master/img/instagram/ins-6.jpg" alt="">
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="footer-area">
+        <div class="container">
+            <div class="row section_gap justify-content-center">
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="single-footer-widget tp_widgets" style="text-align: center;">
+                        <h4 class="footer_title large_title">Misyonumuz</h4>
+                        <p>
+                            Bilgisayar mühendisliği bilgi birikimimizi, okuma kültürünü destekleyecek akıllı sistemler geliştirmek için kullanıyoruz. Amacımız, kullanıcıların ilgi alanlarına uygun kitapları verimli ve doğru şekilde öneren bir sistem tasarlamak.
+                        </p>
+                        <p>
+                            Bu bitirme projesi, yalnızca bir yazılım geliştirme süreci değil; algoritmalarla insanların okuma alışkanlıklarını buluşturan bir inovasyon girişimidir. Kitapları keşfetmenin dijital anahtarı artık parmaklarınızın ucunda.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="single-footer-widget tp_widgets" style="text-align: center;">
+                        <h4 class="footer_title">İletişim</h4>
+                        <div>
+                            <p class="sm-head">
+                                <i class="fa-brands fa-github"></i>
+                                GitHub
+                            </p>
+                            <p>
+                                <a href="https://github.com/zeynephelinaydin" target="_blank">Zeynep Helin Aydın</a><br>
+                                <a href="https://github.com/rabisozcan" target="_blank">Rabia Özcan</a><br>
+                                <a href="https://github.com/BegumUlgen" target="_blank">Begüm Ülgen</a>
+                            </p>
+
+                            <p class="sm-head">
+                                <i class="fa fa-envelope"></i>
+                                Email
+                            </p>
+                            <p>
+                                <a href="mailto:zeyhel2002@gmail.com">zeyhel2002@gmail.com</a><br>
+                                <a href="mailto:r3ozcan@gmail.com">r3ozcan@gmail.com</a><br>
+                                <a href="mailto:begumulgenn@gmail.com">begum0110@hotmail.com</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</footer>
+
+
+
+<!--================ End Related Product Area =================-->
+@section Scripts {
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            let selectedRating = 0;
+            const stars = document.querySelectorAll('.star');
+            const ratingForm = document.getElementById("rating-form");
+            const ratingResult = document.getElementById("rating-result");
+
+            // Yıldız seçme işlemi
+            stars.forEach(star => {
+                star.addEventListener('click', function () {
+                    selectedRating = parseInt(this.getAttribute('data-rating'));
+                    document.getElementById('selected-rating').value = selectedRating;
+
+                    // Yıldızların görünümünü güncelle
+                    stars.forEach((s, index) => {
+                        const icon = s.querySelector('i');
+                        icon.classList.toggle('fas', index < selectedRating);
+                        icon.classList.toggle('far', index >= selectedRating);
+                    });
+
+                    ratingResult.innerText = `${selectedRating} yıldız verdiniz.`;
+                });
+            });
+
+            ratingForm.addEventListener("submit", async function (e) {
+    e.preventDefault();
+
+    if (selectedRating === 0) {
+        alert("Lütfen bir puan seçin.");
+        return;
+    }
+
+    const email = ratingForm.querySelector('input[name="email"]').value;
+    const isbn = ratingForm.querySelector('input[name="isbn"]').value;
+
+    const data = {
+        rating: selectedRating,
+        email: email,
+        isbn: isbn
+    };
+
+    try {
+        const response = await fetch('/Rate/Rate', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'Accept': 'application/json',
+            },
+            body: JSON.stringify(data),
+        });
+
+        const result = await response.json();
+
+        if (response.ok && result.success) {
+            // Başarılıysa ekrana mesaj gösterebilirsin ya da göstermek istemezsen bunu kaldır
+            ratingResult.innerHTML = `<span class="text-success">${result.message}</span>
+                Ortalama: ${result.average_rating}`;
+
+            let starsContainer = document.querySelector('.rating-stars');
+            if (!starsContainer) {
+                starsContainer = document.createElement('div');
+                starsContainer.className = 'rating-stars';
+                ratingResult.parentNode.insertBefore(starsContainer, ratingResult.nextSibling);
+            }
+            starsContainer.innerHTML = '';
+            for (let i = 1; i <= 5; i++) {
+                const star = document.createElement('i');
+                star.className = `fa ${i <= Math.round(result.average_rating) ? 'fa-star text-warning' : 'fa-star-o text-secondary'}`;
+                starsContainer.appendChild(star);
+            }
+        } else {
+            // Backend hata mesajı varsa göster
+            ratingResult.innerHTML = `<span class="text-danger">${result.message || 'Bilinmeyen hata oluştu.'}</span>`;
+            console.error("Backend hatası:", result);
+        }
+    } catch (error) {
+        console.error("Sunucu hatası:", error);
+    }
+            });
+        });
+    </script>
+}

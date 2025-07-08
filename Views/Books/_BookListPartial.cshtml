@@ -1,0 +1,12 @@
+@model IEnumerable<KitapOneri.Models.Book>
+<div>
+    @foreach (var book in Model)
+    {
+    <div class="book-item">
+        <img src="@book.book_img" alt ="@book.name" />
+        <h3>@book.name</h3>
+        <p>Yazar: @book.author</p>
+        <p>Yayınevi: @book.publisher</p>
+    </div>
+    }
+</div>

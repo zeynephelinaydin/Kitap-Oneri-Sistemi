@@ -1,0 +1,114 @@
+﻿@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor HttpContextAccessor
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - KitapOneri</title>
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/KitapOneri.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/aroma-master/css/main.css" />
+    <link rel="stylesheet" href="~/aroma-master/css/style.css" />
+
+    <!-- Font Awesome 6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+          integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<div class="container">
+    <main role="main" class="pb-3">
+        @RenderBody()
+    </main>
+</div>
+
+<footer class="border-top footer text-muted">
+    <div class="container">
+        &copy; 2025 - KitapOneri - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+    </div>
+</footer>
+
+<!-- JavaScript Files -->
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="~/js/site.js" asp-append-version="true"></script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const stars = document.querySelectorAll('.star');
+        const ratingResult = document.getElementById('rating-result');
+        const selectedRatingInput = document.getElementById('selected-rating');
+        let selectedRating = 0;
+
+        stars.forEach(star => {
+            star.addEventListener('click', function (e) {
+                e.preventDefault();
+                selectedRating = parseInt(this.getAttribute('data-rating'));
+                selectedRatingInput.value = selectedRating;
+
+                stars.forEach((s, i) => {
+                    const icon = s.querySelector('i');
+                    if (i < selectedRating) {
+                        icon.classList.remove('fa-regular');
+                        icon.classList.add('fa-solid');
+                    } else {
+                        icon.classList.remove('fa-solid');
+                        icon.classList.add('fa-regular');
+                    }
+                });
+
+                let Seçilen;
+                ratingResult.textContent = `Seçilen puan: ${selectedRating}`;
+            });
+        });
+
+        const form = document.getElementById('rating-form');
+        form.addEventListener('submit', function (e) {
+            e.preventDefault();
+
+            if (selectedRating === 0) {
+                alert('Lütfen bir puan seçin.');
+                return;
+            }
+
+            const formData = new FormData(form);
+
+            fetch(form.action, {
+                method: 'POST',
+                headers: {
+                    'RequestVerificationToken': document.querySelector('input[name="__RequestVerificationToken"]').value
+                },
+                body: formData
+            })
+                .then(response => {
+                    if (!response.ok) throw new Error('');
+                    return response.json(); // Backend JSON dönmeli
+                })
+                .then(data => {
+                    alert('Yorumunuz başarıyla gönderildi!');
+                    form.reset();
+                    selectedRating = 0;
+                    selectedRatingInput.value = 0;
+                    ratingResult.textContent = '';
+
+                    stars.forEach(s => {
+                        const icon = s.querySelector('i');
+                        icon.classList.remove('fa-solid');
+                        icon.classList.add('fa-regular');
+                    });
+                })
+                .catch(error => {
+                    alert('Değerlendirmeniz başarıyla gönderildi ' + error.message);
+                });
+        });
+    });
+</script>
+
+@await RenderSectionAsync("Scripts", required: false)
+</body>
+</html> 

@@ -1,0 +1,299 @@
+@model KitapOneri.DTOs.UserRegisterDto
+@{
+	Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Kayıt Ol</title>
+	<link rel="icon" href="/aroma-master/img/logoo.png" type="image/png">
+	<link rel="stylesheet" href="/aroma-master/vendors/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="/aroma-master/vendors/fontawesome/css/all.min.css">
+	<link rel="stylesheet" href="/aroma-master/vendors/themify-icons/themify-icons.css">
+	<link rel="stylesheet" href="/aroma-master/vendors/linericon/style.css">
+	<link rel="stylesheet" href="/aroma-master/vendors/owl-carousel/owl.theme.default.min.css">
+	<link rel="stylesheet" href="/aroma-master/vendors/owl-carousel/owl.carousel.min.css">
+	<link rel="stylesheet" href="/aroma-master/vendors/nice-select/nice-select.css">
+	<link rel="stylesheet" href="/aroma-master/vendors/nouislider/nouislider.min.css">
+	<link rel="stylesheet" href="/aroma-master/css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+
+<body>
+<!--================ Start Header Menu Area =================-->
+<header class="header_area">
+	<div class="main_menu">
+		<nav class="navbar navbar-expand-lg navbar-light">
+			<div class="container">
+				<a class="navbar-brand logo_h" href="/Home/Index">
+					<img src="/aroma-master/img/logoo.png" alt="Bibliophile Logo" class="custom-logo" style="max-height: 8rem; width: auto;">
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+				        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+					<ul class="nav navbar-nav menu_nav ml-auto mr-auto">
+						<li class="nav-item"><a class="nav-link" href="/index">Ana Sayfa</a></li>
+						<li class="nav-item submenu dropdown">
+							<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+							   aria-expanded="false">Mağaza</a>
+							<ul class="dropdown-menu">
+								<li class="nav-item"><a class="nav-link" href="/category">Kategoriler</a></li>
+
+							</ul>
+						</li>
+						<li class="nav-item submenu dropdown">
+							<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+							   aria-expanded="false">Blog</a>
+							<ul class="dropdown-menu">
+								<li class="nav-item"><a class="nav-link" href="/blog">Blog</a></li>
+							</ul>
+						</li>
+						<li class="nav-item active submenu dropdown">
+							<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+							   aria-expanded="false">Sayfalar</a>
+							<ul class="dropdown-menu">
+								<li class="nav-item"><a class="nav-link" href="/login">Giriş Yap</a></li>
+								<li class="nav-item"><a class="nav-link" href="/register">Kayıt Ol</a></li>
+							</ul>
+						</li>
+						<li class="nav-item"><a class="nav-link" href="/contact">Favoriler</a></li>
+					</ul>
+
+				</div>
+			</div>
+		</nav>
+	</div>
+</header>
+<!--================ End Header Menu Area =================-->
+
+<section class="login_box_area section-margin">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6">
+				<div class="login_box_img">
+					<div class="hover">
+						<h4>Bir hesabınız var mı?</h4>
+						<a class="button button-account" href="/login">Giriş Yapın</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-6">
+				<div class="login_form_inner register_form_inner">
+					<h3>Hesap Oluştur</h3>
+
+					<!-- Success message -->
+					@if (TempData["SuccessMessage"] != null)
+					{
+					<div class="alert alert-success">
+						@TempData["SuccessMessage"]
+					</div>
+					}
+
+					<!-- Register Form -->
+					<form asp-action="Index" asp-controller="Register" method="post" class="row login_form" onsubmit="return validatePassword()">
+						<div class="col-md-12 form-group">
+							<input asp-for="Username" type="text" class="form-control" placeholder="Kullanıcı adını giriniz" />
+							<span asp-validation-for="Username" class="text-danger"></span>
+						</div>
+						<div class="col-md-12 form-group">
+							<input asp-for="Email" type="email" class="form-control" placeholder="Email adresinizi giriniz" />
+							<span asp-validation-for="Email" class="text-danger"></span>
+						</div>
+						<div class="col-md-12 form-group">
+							<div class="input-group">
+								<input asp-for="Password" type="password" class="form-control" placeholder="Şifrenizi giriniz" id="Password" />
+								<div class="input-group-append">
+									<button type="button" class="btn btn-outline-secondary" onclick="togglePassword('Password', 'togglePasswordIcon')">
+										<i id="togglePasswordIcon" class="fa fa-eye"></i>
+									</button>
+								</div>
+							</div>
+							<span asp-validation-for="Password" class="text-danger"></span>
+							<small id="passwordError" class="text-danger"></small>
+						</div>
+						<div class="col-md-12 form-group">
+							<div class="input-group">
+								<input asp-for="ConfirmPassword" type="password" class="form-control" placeholder="Şifrenizi onaylayınız" id="ConfirmPassword" />
+								<div class="input-group-append">
+									<button type="button" class="btn btn-outline-secondary" onclick="togglePassword('ConfirmPassword', 'toggleConfirmPasswordIcon')">
+										<i id="toggleConfirmPasswordIcon" class="fa fa-eye"></i>
+									</button>
+								</div>
+							</div>
+							<span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+						</div>
+
+						<div class="col-md-12 form-group">
+							<div class="form-group">
+								<label for="securityQuestion">Güvenlik Sorusu</label>
+								<select asp-for="SecurityQuestion" class="form-control">
+									<option value="Your first pet's name?">İlk evcil hayvanınızın ismi?</option>
+									<option value="Your mother's maiden name?">Annenizin kızlık soyadı?</option>
+									<option value="Your favorite book?">En sevdiğiniz kitap?</option>
+								</select>
+							</div>
+						</div>
+						<div class="col-md-12 form-group">
+							<input asp-for="SecurityAnswer" type="text" class="form-control" placeholder="Güvenlik cevabınızı giriniz" />
+							<span asp-validation-for="SecurityAnswer" class="text-danger"></span>
+						</div>
+
+						<div class="col-md-12 form-group">
+							<button type="submit" class="button button-register w-100">Kayıt Ol</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<script>
+	function togglePassword(inputId, iconId) {
+		var input = document.getElementById(inputId);
+		var icon = document.getElementById(iconId);
+
+		if (input.type === "password") {
+			input.type = "text";
+			icon.classList.remove("fa-eye");
+			icon.classList.add("fa-eye-slash");
+		} else {
+			input.type = "password";
+			icon.classList.remove("fa-eye-slash");
+			icon.classList.add("fa-eye");
+		}
+	}
+
+	function validatePassword() {
+		var password = document.getElementById("Password").value;
+		var confirmPassword = document.getElementById("ConfirmPassword").value;
+		var errorText = document.getElementById("passwordError");
+
+		// Password validation regex (must contain at least one lowercase, one uppercase, and one number, and be at least 8 characters long)
+		var regex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}$/;
+
+
+		// Check if password meets the regex
+		if (!regex.test(password)) {
+			errorText.textContent = "Şifre en az 8 karakter, 1 büyük harf ve 1 rakam içermelidir.";
+			return false;
+		}
+
+		// Check if passwords match
+		if (password !== confirmPassword) {
+			errorText.textContent = "Şifreler eşleşmiyor.";
+			return false;
+		}
+
+		// Clear error message if validation passes
+		errorText.textContent = "";
+		return true;
+	}
+</script>
+
+
+
+<!--================ Start footer Area  =================-->
+<section class="instagram_area">
+	<style>
+		.instagram_image {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			gap: 1rem;
+		}
+
+		.instagram_image img {
+			width: 100%;
+			max-width: 150px;
+			height: auto;
+			aspect-ratio: 1 / 1;
+			object-fit: cover;
+			border-radius: 8px;
+		}
+	</style>
+	<div class="container box_1620">
+		<div class="instagram_image row m0">
+			<img src="/aroma-master/img/instagram/ins-1.jpg" alt="">
+			<img src="/aroma-master/img/instagram/ins-2.jpg" alt="">
+			<img src="/aroma-master/img/instagram/ins-3.jpg" alt="">
+			<img src="/aroma-master/img/instagram/ins-4.jpg" alt="">
+			<img src="/aroma-master/img/instagram/ins-5.jpg" alt="">
+			<img src="/aroma-master/img/instagram/ins-6.jpg" alt="">
+		</div>
+	</div>
+</section>
+<footer>
+	<div class="footer-area">
+		<div class="container">
+			<div class="row section_gap justify-content-center">
+				<div class="col-lg-3 col-md-6 col-sm-6">
+					<div class="single-footer-widget tp_widgets" style="text-align: center;">
+						<h4 class="footer_title large_title">Misyonumuz</h4>
+						<p>
+							Bilgisayar mühendisliği bilgi birikimimizi, okuma kültürünü destekleyecek akıllı sistemler geliştirmek için kullanıyoruz. Amacımız, kullanıcıların ilgi alanlarına uygun kitapları verimli ve doğru şekilde öneren bir sistem tasarlamak.
+						</p>
+						<p>
+							Bu bitirme projesi, yalnızca bir yazılım geliştirme süreci değil; algoritmalarla insanların okuma alışkanlıklarını buluşturan bir inovasyon girişimidir. Kitapları keşfetmenin dijital anahtarı artık parmaklarınızın ucunda.
+						</p>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-6 col-sm-6">
+					<div class="single-footer-widget tp_widgets" style="text-align: center;">
+						<h4 class="footer_title">İletişim</h4>
+						<div>
+							<p class="sm-head">
+								<i class="fa-brands fa-github"></i>
+								GitHub
+							</p>
+							<p>
+								<a href="https://github.com/zeynephelinaydin" target="_blank">Zeynep Helin Aydın</a><br>
+								<a href="https://github.com/rabisozcan" target="_blank">Rabia Özcan</a><br>
+								<a href="https://github.com/BegumUlgen" target="_blank">Begüm Ülgen</a>
+							</p>
+
+							<p class="sm-head">
+								<i class="fa fa-envelope"></i>
+								Email
+							</p>
+							<p>
+								<a href="mailto:zeyhel2002@gmail.com">zeyhel2002@gmail.com</a><br>
+								<a href="mailto:r3ozcan@gmail.com">r3ozcan@gmail.com</a><br>
+								<a href="mailto:begumulgenn@gmail.com">begum0110@hotmail.com</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+</footer>
+
+<!--================ End footer Area  =================-->
+
+
+
+<!-- Validation Scripts -->
+<script src="/aroma-master/vendors/jquery/jquery-3.2.1.min.js"></script>
+<script src="/aroma-master/vendors/bootstrap/bootstrap.bundle.min.js"></script>
+<script src="/aroma-master/vendors/skrollr.min.js"></script>
+<script src="/aroma-master/vendors/owl-carousel/owl.carousel.min.js"></script>
+<script src="/aroma-master/vendors/nice-select/jquery.nice-select.min.js"></script>
+<script src="/aroma-master/vendors/jquery.ajaxchimp.min.js"></script>
+<script src="/aroma-master/vendors/mail-script.js"></script>
+<script src="/aroma-master/js/main.js"></script>
+</body>
+</html>

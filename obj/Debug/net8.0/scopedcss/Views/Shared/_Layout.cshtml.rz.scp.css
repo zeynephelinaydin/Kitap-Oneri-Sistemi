@@ -1,0 +1,72 @@
+/* Temel reset ve yükseklik ayarları */
+html[b-z2map9hr8k], body[b-z2map9hr8k] {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Body'yi flex container yapıyoruz, içerik ve footer için */
+body[b-z2map9hr8k] {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Ana içerik kısmı esnek, footer aşağıda */
+.container[b-z2map9hr8k] {
+    flex: 1 0 auto;
+}
+
+/* Linkler */
+a.navbar-brand[b-z2map9hr8k] {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+}
+
+a[b-z2map9hr8k] {
+    color: #0077cc;
+}
+
+/* Butonlar */
+.btn-primary[b-z2map9hr8k] {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-z2map9hr8k], .nav-pills .show > .nav-link[b-z2map9hr8k] {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+/* Borderlar */
+.border-top[b-z2map9hr8k] {
+    border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-z2map9hr8k] {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+/* Gölgelendirme */
+.box-shadow[b-z2map9hr8k] {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+/* Policy button */
+button.accept-policy[b-z2map9hr8k] {
+    font-size: 1rem;
+    line-height: inherit;
+}
+
+/* Footer */
+.footer[b-z2map9hr8k] {
+    flex-shrink: 0; /* Küçülmeyi engelle */
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px;
+    border-top: 1px solid #e5e5e5;
+    background-color: #f8f9fa; /* İstersen arka plan ekle */
+    text-align: center;
+}

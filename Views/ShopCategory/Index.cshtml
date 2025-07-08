@@ -1,0 +1,513 @@
+@{
+  ViewData["Title"] = "Kitap Kategorileri";
+}
+<style>
+  /* Stil ayarları */
+  body {
+    background-color: #fff !important;
+    opacity: 1 !important;
+  }
+
+  .sidebar-categories, .book-item {
+    position: relative;
+  }
+
+  .card-body {
+    text-align: center;
+    padding: 15px;
+  }
+
+  .card-body p {
+    margin: 0;
+    color: #555;
+  }
+
+  .card-body h5 {
+    margin: 10px 0 5px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+  }
+
+  #pagination button.active {
+    background-color: #007bff;
+    color: white;
+  }
+
+  #pagination button {
+    margin: 0 5px;
+    padding: 5px 10px;
+  }
+
+  .header_area {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .main_menu .navbar,
+  .navbar .container {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .navbar .navbar-nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .navbar-nav .nav-item {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  /* Kitap kartı düzeni */
+  .book-card {
+    position: relative;
+    border-radius: 0;
+    overflow: hidden;
+    margin-bottom: 10px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  }
+
+  .book-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+  }
+
+  /* Kitap ikonları ve hover efekti */
+  .book-icon-overlay {
+    position: absolute;
+    bottom: -60px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 15px 0;
+    transition: bottom 0.4s ease;
+    background: transparent;
+  }
+
+  .book-item:hover .book-icon-overlay {
+    bottom: 0;
+  }
+
+  /* Görseldeki buton stili */
+  .btn-book-action {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #8A7CFF;
+    color: white;
+    border: none;
+    transition: background-color 0.2s;
+    text-decoration: none;
+  }
+
+  .btn-book-action:hover {
+    background-color: #7B68EE;
+  }
+
+  /* İlk buton için kenar radiusu düzenlemesi */
+  .btn-book-action:first-child {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+
+  /* Son buton için kenar radiusu düzenlemesi */
+  .btn-book-action:last-child {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  /* Ortadaki buton için düzenleme */
+  .btn-book-action:nth-child(2) {
+    border-radius: 0;
+  }
+
+ 
+  
+</style>
+
+<!-- Bootstrap CSS - en güncel versiyonu kullanıyoruz -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<!-- jQuery kütüphanesini ekleyelim - dropdown için gerekli olabilir -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<!-- Bootstrap JS - en güncel versiyonu yukarıda includedan önce yüklüyoruz -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor HttpContextAccessor
+
+<header class="header_area">
+  <div class="main_menu">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container align-items-center">
+        <a class="navbar-brand logo_h" href="/index">
+          <img src="/aroma-master/img/logoo.png" alt="Bibliophile Logo" class="custom-logo" style="max-height: 8rem; width: auto;"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+          <ul class="nav navbar-nav menu_nav ml-auto mr-auto">
+            <li class="nav-item active"><a class="nav-link" href="/index">Anasayfa</a></li>
+            <li class="nav-item submenu dropdown">
+              <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                 aria-expanded="false">Kitaplar</a>
+              <ul class="dropdown-menu">
+                <li class="nav-item"><a class="nav-link" href="/category">Kitap Kategorileri</a></li>
+
+              </ul>
+            </li>
+            <li class="nav-item submenu dropdown">
+              <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                 aria-expanded="false">Blog</a>
+              <ul class="dropdown-menu">
+                <li class="nav-item"><a class="nav-link" href="/blog">Blog</a></li>
+              </ul>
+            </li>
+            <li class="nav-item submenu dropdown">
+              <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                 aria-expanded="false">Sayfalar</a>
+              <ul class="dropdown-menu">
+                <li class="nav-item"><a class="nav-link" href="/login">Login</a></li>
+                <li class="nav-item"><a class="nav-link" href="/register">Register</a></li>
+              </ul>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="/contact">Favoriler</a></li>
+          </ul>
+
+          <ul class="nav-shop">
+            <li class="nav-item">
+              <form asp-controller="Books" asp-action="Search" method="get" class="form-inline" style="display: flex;">
+                <input class="form-control mr-sm-2" type="search" name="query" placeholder="Kitap veya Yazar Ara" aria-label="Search" required style="height: 2.5rem; margin-right: 0.5rem;">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="ti-search"></i></button>
+              </form>
+            </li>
+
+            @{
+            var username = HttpContextAccessor.HttpContext?.Session.GetString("Username");
+            }
+
+            @if (!string.IsNullOrEmpty(username))
+            {
+            <li class="nav-item">
+              <span class="nav-link text-primary">Hoşgeldin @username</span>
+            </li>
+            <li class="nav-item">
+              <form method="post" asp-controller="Login" asp-action="Logout" style="margin: 0;">
+                <button type="submit" class="nav-link text-danger" style="background: none; border: none; padding: 0;">Çıkış Yap</button>
+              </form>
+            </li>
+            }
+            else
+            {
+            <li class="nav-item">
+              <a class="nav-link" href="/login">Giriş Yap</a>
+            </li>
+            }
+          </ul>
+
+
+        </div>
+      </div>
+    </nav>
+  </div>
+</header>
+@{
+  var publishers = ViewBag.Publishers as List<string>;
+
+}
+
+<section class="section-margin--small mb-5">
+  <div class="container">
+    <div class="row">
+      <!-- Sol taraf: Türler ve Yayınevi Dropdown -->
+      <div class="col-xl-3 col-lg-4 col-md-5">
+        <div class="sidebar-categories">
+          <div class="head">Kitap Kategorileri</div>
+          <ul class="main-categories">
+            <li class="common-filter">
+              <form>
+                <ul>
+                  <li class="filter-list">
+                    <input class="pixel-radio" type="radio" id="tumkıtaplar" name="category" value="Tüm Kitaplar" checked />
+                    <label for="tumkıtaplar">Tüm Kitaplar</label>
+                  </li>
+                  <li class="filter-list">
+                    <input class="pixel-radio" type="radio" id="turkklasikleri" name="category" value="Türk Klasikleri" />
+                    <label for="turkklasikleri">Türk Klasikleri</label>
+                  </li>
+                  <li class="filter-list">
+                    <input class="pixel-radio" type="radio" id="romantik" name="category" value="Romantik" />
+                    <label for="romantik">Romantik</label>
+                  </li>
+                  <li class="filter-list">
+                    <input class="pixel-radio" type="radio" id="korkugerilim" name="category" value="Korku Gerilim" />
+                    <label for="korkugerilim">Korku Gerilim</label>
+                  </li>
+                  <li class="filter-list">
+                    <input class="pixel-radio" type="radio" id="macera" name="category" value="Macera" />
+                    <label for="macera">Macera</label>
+                  </li>
+                  <li class="filter-list">
+                    <input class="pixel-radio" type="radio" id="polisiye" name="category" value="Polisiye" />
+                    <label for="polisiye">Polisiye</label>
+                  </li>
+                  <li class="filter-list">
+                    <input class="pixel-radio" type="radio" id="fantastik" name="category" value="Fantastik" />
+                    <label for="fantastik">Fantastik</label>
+                  </li>
+                  <li class="filter-list">
+                    <input class="pixel-radio" type="radio" id="bilimkurgu" name="category" value="Bilim Kurgu" />
+                    <label for="bilimkurgu">Bilim Kurgu</label>
+                  </li>
+                  <li class="filter-list">
+                    <input class="pixel-radio" type="radio" id="turkromani" name="category" value="Türk Romanı" />
+                    <label for="turkromani">Türk Romanı</label>
+                  </li>
+                  <li class="filter-list">
+                    <input class="pixel-radio" type="radio" id="dünyaroman" name="category" value="Dünya Roman" />
+                    <label for="dünyaroman">Dünya Roman</label>
+                  </li>
+                </ul>
+              </form>
+            </li>
+          </ul>
+
+          <!-- Yayınevi dropdown burada türlerin hemen altında -->
+          <form method="get" action="/category" class="mt-4">
+            <label for="publisher" class="head">Yayınevi Seç:</label>
+            <select id="publisher" name="publisher" class="form-control">
+              @if (ViewBag.SelectedPublisher == "Tüm Yayınevleri")
+              {
+                <option value="Tüm Yayınevleri" selected>Tüm Yayınevleri</option>
+              }
+              else
+              {
+                <option value="Tüm Yayınevleri">Tüm Yayınevleri</option>
+              }
+              @foreach (var publisher in ViewBag.Publishers)
+              {
+                if (ViewBag.SelectedPublisher == publisher)
+                {
+                  <option value="@publisher" selected>@publisher</option>
+                }
+                else
+                {
+                  <option value="@publisher">@publisher</option>
+                }
+              }
+            </select>
+          </form>
+
+        </div>
+      </div>
+
+      <!-- Sağ taraf: Kitap listesi ve sayfalama -->
+      <div class="col-xl-9 col-lg-8 col-md-7">
+        <div id="book-list" class="row"></div>
+        <div id="pagination" class="d-flex justify-content-center mt-4"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+        <!-- Kitaplar Listesi -->
+        <div id="book-list" class="row"></div>
+
+        <!-- Sayfalama -->
+        <div id="pagination" class="d-flex justify-content-center mt-4"></div>
+      
+    
+  
+
+
+        <script>
+  let currentPage = 1;
+  let selectedCategory = 'Tüm Kitaplar'; // İlk açık kategori olarak 'Tüm Kitaplar' seçiyoruz
+  let selectedPublisher = null; // İlk yayınevi seçimi
+
+  document.addEventListener("DOMContentLoaded", function () {
+    // Kategori seçim eventleri
+    document.querySelectorAll('input[name="category"]').forEach(function (radio) {
+      radio.addEventListener('change', function () {
+        selectedCategory = this.value;
+        currentPage = 1;
+        loadBooks();
+      });
+    });
+
+    // Yayınevi değişikliklerini dinle
+    document.getElementById('publisher').addEventListener('change', function () {
+      selectedPublisher = this.value;
+      currentPage = 1;
+      loadBooks();
+    });
+
+    // Kitapları sayfa yüklendiğinde yükle
+    loadBooks();
+  });
+
+  function loadBooks() {
+    let url = `/category/ListByType?page=${currentPage}`;
+
+
+    // Kategori 'Tüm Kitaplar' ise kategori parametresi eklenmesin
+    if (selectedCategory !== 'Tüm Kitaplar') {
+      url += `&type=${encodeURIComponent(selectedCategory)}`;
+    }
+
+    if (selectedPublisher) {
+      url += `&publisher=${encodeURIComponent(selectedPublisher)}`;
+    }
+
+    fetch(url)
+      .then(response => response.json())
+      .then(data => {
+        const bookList = document.getElementById('book-list');
+        bookList.innerHTML = '';
+
+        if (data.error) {
+          bookList.innerHTML = `<p>${data.error}</p>`;
+        } else {
+          data.books.forEach(function (book) {
+            const bookItem = `
+              <div class="col-md-3 book-item mb-4">
+                <div class="card">
+                  <img src="${book.book_img || '/img/product/default.png'}" alt="${book.name}" class="card-img-top" />
+                  <div class="card-body">
+                    <h5 class="card-title">${book.name}</h5>
+                    <p class="card-text">Yazar: ${book.author}</p>
+                    <p class="card-text">Puan: ${book.rating ?? 'Henüz yok'}</p>
+                    <a href="/Books/Details?isbn=${book.isbn}" class="btn btn-primary">Detayları Gör</a>
+                  </div>
+                </div>
+              </div>
+            `;
+            bookList.innerHTML += bookItem;
+          });
+
+          // Sayfalama
+          const pagination = document.getElementById('pagination');
+          pagination.innerHTML = '';
+
+          if (data.totalPages > 1) {
+            for (let i = 1; i <= data.totalPages; i++) {
+              const pageButton = document.createElement('button');
+              pageButton.classList.add('btn', 'btn-primary', 'mx-1');
+              pageButton.innerText = i;
+
+              pageButton.addEventListener('click', function () {
+                currentPage = i;
+                loadBooks();
+              });
+
+              if (i === currentPage) {
+                pageButton.classList.add('active');
+              }
+
+              pagination.appendChild(pageButton);
+            }
+          }
+        }
+      })
+      .catch(error => {
+        console.error('Hata:', error);
+        document.getElementById('book-list').innerHTML = '<p>Kitaplar yüklenemedi.</p>';
+      });
+  }
+</script>
+<section class="instagram_area">
+  <style>
+    .instagram_image {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+    }
+
+    .instagram_image img {
+      width: 100%;
+      max-width: 150px;
+      height: auto;
+      aspect-ratio: 1 / 1;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+  </style>
+  <div class="container box_1620">
+    <div class="instagram_image row m0">
+      <img src="/aroma-master/img/instagram/ins-1.jpg" alt="">
+      <img src="/aroma-master/img/instagram/ins-2.jpg" alt="">
+      <img src="/aroma-master/img/instagram/ins-3.jpg" alt="">
+      <img src="/aroma-master/img/instagram/ins-4.jpg" alt="">
+      <img src="/aroma-master/img/instagram/ins-5.jpg" alt="">
+      <img src="/aroma-master/img/instagram/ins-6.jpg" alt="">
+    </div>
+  </div>
+</section>
+<footer>
+  <div class="footer-area">
+    <div class="container">
+      <div class="row section_gap justify-content-center">
+        <div class="col-lg-3 col-md-6 col-sm-6">
+          <div class="single-footer-widget tp_widgets" style="text-align: center;">
+            <h4 class="footer_title large_title">Misyonumuz</h4>
+            <p>
+              Bilgisayar mühendisliği bilgi birikimimizi, okuma kültürünü destekleyecek akıllı sistemler geliştirmek için kullanıyoruz. Amacımız, kullanıcıların ilgi alanlarına uygun kitapları verimli ve doğru şekilde öneren bir sistem tasarlamak.
+            </p>
+            <p>
+              Bu bitirme projesi, yalnızca bir yazılım geliştirme süreci değil; algoritmalarla insanların okuma alışkanlıklarını buluşturan bir inovasyon girişimidir. Kitapları keşfetmenin dijital anahtarı artık parmaklarınızın ucunda.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-6">
+          <div class="single-footer-widget tp_widgets" style="text-align: center;">
+            <h4 class="footer_title">İletişim</h4>
+            <div>
+              <p class="sm-head">
+                <i class="fa-brands fa-github"></i>
+                GitHub
+              </p>
+              <p>
+                <a href="https://github.com/zeynephelinaydin" target="_blank">Zeynep Helin Aydın</a><br>
+                <a href="https://github.com/rabisozcan" target="_blank">Rabia Özcan</a><br>
+                <a href="https://github.com/BegumUlgen" target="_blank">Begüm Ülgen</a>
+              </p>
+
+              <p class="sm-head">
+                <i class="fa fa-envelope"></i>
+                Email
+              </p>
+              <p>
+                <a href="mailto:zeyhel2002@gmail.com">zeyhel2002@gmail.com</a><br>
+                <a href="mailto:r3ozcan@gmail.com">r3ozcan@gmail.com</a><br>
+                <a href="mailto:begumulgenn@gmail.com">begum0110@hotmail.com</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</footer>

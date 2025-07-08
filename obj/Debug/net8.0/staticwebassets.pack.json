@@ -1,0 +1,2797 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/obj/Debug/net8.0/scopedcss/projectbundle/KitapOneri.bundle.scp.css",
+      "PackagePath": "staticwebassets/KitapOneri.o672gy8aom.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/Aroma Shop-doc/css/font-awesome.min.css",
+      "PackagePath": "staticwebassets/aroma-master/Aroma Shop-doc/css/font-awesome.min.css"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/Aroma Shop-doc/css/main.css",
+      "PackagePath": "staticwebassets/aroma-master/Aroma Shop-doc/css/main.css"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/Aroma Shop-doc/css/normalize.min.css",
+      "PackagePath": "staticwebassets/aroma-master/Aroma Shop-doc/css/normalize.min.css"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/Aroma Shop-doc/fonts/FontAwesome.otf",
+      "PackagePath": "staticwebassets/aroma-master/Aroma Shop-doc/fonts/FontAwesome.otf"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/Aroma Shop-doc/fonts/fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets/aroma-master/Aroma Shop-doc/fonts/fontawesome-webfont.eot"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/Aroma Shop-doc/fonts/fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets/aroma-master/Aroma Shop-doc/fonts/fontawesome-webfont.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/Aroma Shop-doc/fonts/fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets/aroma-master/Aroma Shop-doc/fonts/fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/Aroma Shop-doc/fonts/fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets/aroma-master/Aroma Shop-doc/fonts/fontawesome-webfont.woff"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/Aroma Shop-doc/img/Thumbs.db",
+      "PackagePath": "staticwebassets/aroma-master/Aroma Shop-doc/img/Thumbs.db"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/Aroma Shop-doc/img/logo.png",
+      "PackagePath": "staticwebassets/aroma-master/Aroma Shop-doc/img/logo.png"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/Aroma Shop-doc/index.html",
+      "PackagePath": "staticwebassets/aroma-master/Aroma Shop-doc/index.html"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/Aroma Shop-doc/js/custom.js",
+      "PackagePath": "staticwebassets/aroma-master/Aroma Shop-doc/js/custom.js"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/Aroma Shop-doc/js/jquery-1.11.0.min.js",
+      "PackagePath": "staticwebassets/aroma-master/Aroma Shop-doc/js/jquery-1.11.0.min.js"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/Aroma Shop-doc/js/jquery.nav.js",
+      "PackagePath": "staticwebassets/aroma-master/Aroma Shop-doc/js/jquery.nav.js"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/Aroma Shop-doc/syntax-highlighter/scripts/shAutoloader.js",
+      "PackagePath": "staticwebassets/aroma-master/Aroma Shop-doc/syntax-highlighter/scripts/shAutoloader.js"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/Aroma Shop-doc/syntax-highlighter/scripts/shBrushAS3.js",
+      "PackagePath": "staticwebassets/aroma-master/Aroma Shop-doc/syntax-highlighter/scripts/shBrushAS3.js"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/Aroma Shop-doc/syntax-highlighter/scripts/shBrushAppleScript.js",
+      "PackagePath": "staticwebassets/aroma-master/Aroma Shop-doc/syntax-highlighter/scripts/shBrushAppleScript.js"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/Aroma Shop-doc/syntax-highlighter/scripts/shBrushBash.js",
+      "PackagePath": "staticwebassets/aroma-master/Aroma Shop-doc/syntax-highlighter/scripts/shBrushBash.js"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/Aroma Shop-doc/syntax-highlighter/scripts/shBrushCSharp.js",
+      "PackagePath": "staticwebassets/aroma-master/Aroma Shop-doc/syntax-highlighter/scripts/shBrushCSharp.js"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/Aroma Shop-doc/syntax-highlighter/scripts/shBrushColdFusion.js",
+      "PackagePath": "staticwebassets/aroma-master/Aroma Shop-doc/syntax-highlighter/scripts/shBrushColdFusion.js"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/Aroma Shop-doc/syntax-highlighter/scripts/shBrushCpp.js",
+      "PackagePath": "staticwebassets/aroma-master/Aroma Shop-doc/syntax-highlighter/scripts/shBrushCpp.js"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/Aroma Shop-doc/syntax-highlighter/scripts/shBrushCss.js",
+      "PackagePath": "staticwebassets/aroma-master/Aroma Shop-doc/syntax-highlighter/scripts/shBrushCss.js"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/Aroma Shop-doc/syntax-highlighter/scripts/shBrushDelphi.js",
+      "PackagePath": "staticwebassets/aroma-master/Aroma Shop-doc/syntax-highlighter/scripts/shBrushDelphi.js"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/Aroma Shop-doc/syntax-highlighter/scripts/shBrushDiff.js",
+      "PackagePath": "staticwebassets/aroma-master/Aroma Shop-doc/syntax-highlighter/scripts/shBrushDiff.js"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/Aroma Shop-doc/syntax-highlighter/scripts/shBrushErlang.js",
+      "PackagePath": "staticwebassets/aroma-master/Aroma Shop-doc/syntax-highlighter/scripts/shBrushErlang.js"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/Aroma Shop-doc/syntax-highlighter/scripts/shBrushGroovy.js",
+      "PackagePath": "staticwebassets/aroma-master/Aroma Shop-doc/syntax-highlighter/scripts/shBrushGroovy.js"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/Aroma Shop-doc/syntax-highlighter/scripts/shBrushJScript.js",
+      "PackagePath": "staticwebassets/aroma-master/Aroma Shop-doc/syntax-highlighter/scripts/shBrushJScript.js"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/Aroma Shop-doc/syntax-highlighter/scripts/shBrushJava.js",
+      "PackagePath": "staticwebassets/aroma-master/Aroma Shop-doc/syntax-highlighter/scripts/shBrushJava.js"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/Aroma Shop-doc/syntax-highlighter/scripts/shBrushJavaFX.js",
+      "PackagePath": "staticwebassets/aroma-master/Aroma Shop-doc/syntax-highlighter/scripts/shBrushJavaFX.js"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/Aroma Shop-doc/syntax-highlighter/scripts/shBrushPerl.js",
+      "PackagePath": "staticwebassets/aroma-master/Aroma Shop-doc/syntax-highlighter/scripts/shBrushPerl.js"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/Aroma Shop-doc/syntax-highlighter/scripts/shBrushPhp.js",
+      "PackagePath": "staticwebassets/aroma-master/Aroma Shop-doc/syntax-highlighter/scripts/shBrushPhp.js"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/Aroma Shop-doc/syntax-highlighter/scripts/shBrushPlain.js",
+      "PackagePath": "staticwebassets/aroma-master/Aroma Shop-doc/syntax-highlighter/scripts/shBrushPlain.js"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/Aroma Shop-doc/syntax-highlighter/scripts/shBrushPowerShell.js",
+      "PackagePath": "staticwebassets/aroma-master/Aroma Shop-doc/syntax-highlighter/scripts/shBrushPowerShell.js"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/Aroma Shop-doc/syntax-highlighter/scripts/shBrushPython.js",
+      "PackagePath": "staticwebassets/aroma-master/Aroma Shop-doc/syntax-highlighter/scripts/shBrushPython.js"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/Aroma Shop-doc/syntax-highlighter/scripts/shBrushRuby.js",
+      "PackagePath": "staticwebassets/aroma-master/Aroma Shop-doc/syntax-highlighter/scripts/shBrushRuby.js"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/Aroma Shop-doc/syntax-highlighter/scripts/shBrushSass.js",
+      "PackagePath": "staticwebassets/aroma-master/Aroma Shop-doc/syntax-highlighter/scripts/shBrushSass.js"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/Aroma Shop-doc/syntax-highlighter/scripts/shBrushScala.js",
+      "PackagePath": "staticwebassets/aroma-master/Aroma Shop-doc/syntax-highlighter/scripts/shBrushScala.js"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/Aroma Shop-doc/syntax-highlighter/scripts/shBrushSql.js",
+      "PackagePath": "staticwebassets/aroma-master/Aroma Shop-doc/syntax-highlighter/scripts/shBrushSql.js"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/Aroma Shop-doc/syntax-highlighter/scripts/shBrushVb.js",
+      "PackagePath": "staticwebassets/aroma-master/Aroma Shop-doc/syntax-highlighter/scripts/shBrushVb.js"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/Aroma Shop-doc/syntax-highlighter/scripts/shBrushXml.js",
+      "PackagePath": "staticwebassets/aroma-master/Aroma Shop-doc/syntax-highlighter/scripts/shBrushXml.js"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/Aroma Shop-doc/syntax-highlighter/scripts/shCore.js",
+      "PackagePath": "staticwebassets/aroma-master/Aroma Shop-doc/syntax-highlighter/scripts/shCore.js"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/Aroma Shop-doc/syntax-highlighter/scripts/shLegacy.js",
+      "PackagePath": "staticwebassets/aroma-master/Aroma Shop-doc/syntax-highlighter/scripts/shLegacy.js"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/Aroma Shop-doc/syntax-highlighter/styles/shCore.css",
+      "PackagePath": "staticwebassets/aroma-master/Aroma Shop-doc/syntax-highlighter/styles/shCore.css"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/Aroma Shop-doc/syntax-highlighter/styles/shCoreDefault.css",
+      "PackagePath": "staticwebassets/aroma-master/Aroma Shop-doc/syntax-highlighter/styles/shCoreDefault.css"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/Aroma Shop-doc/syntax-highlighter/styles/shCoreDjango.css",
+      "PackagePath": "staticwebassets/aroma-master/Aroma Shop-doc/syntax-highlighter/styles/shCoreDjango.css"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/Aroma Shop-doc/syntax-highlighter/styles/shCoreEclipse.css",
+      "PackagePath": "staticwebassets/aroma-master/Aroma Shop-doc/syntax-highlighter/styles/shCoreEclipse.css"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/Aroma Shop-doc/syntax-highlighter/styles/shCoreEmacs.css",
+      "PackagePath": "staticwebassets/aroma-master/Aroma Shop-doc/syntax-highlighter/styles/shCoreEmacs.css"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/Aroma Shop-doc/syntax-highlighter/styles/shCoreFadeToGrey.css",
+      "PackagePath": "staticwebassets/aroma-master/Aroma Shop-doc/syntax-highlighter/styles/shCoreFadeToGrey.css"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/Aroma Shop-doc/syntax-highlighter/styles/shCoreMDUltra.css",
+      "PackagePath": "staticwebassets/aroma-master/Aroma Shop-doc/syntax-highlighter/styles/shCoreMDUltra.css"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/Aroma Shop-doc/syntax-highlighter/styles/shCoreMidnight.css",
+      "PackagePath": "staticwebassets/aroma-master/Aroma Shop-doc/syntax-highlighter/styles/shCoreMidnight.css"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/Aroma Shop-doc/syntax-highlighter/styles/shCoreRDark.css",
+      "PackagePath": "staticwebassets/aroma-master/Aroma Shop-doc/syntax-highlighter/styles/shCoreRDark.css"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/Aroma Shop-doc/syntax-highlighter/styles/shThemeDefault.css",
+      "PackagePath": "staticwebassets/aroma-master/Aroma Shop-doc/syntax-highlighter/styles/shThemeDefault.css"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/Aroma Shop-doc/syntax-highlighter/styles/shThemeDjango.css",
+      "PackagePath": "staticwebassets/aroma-master/Aroma Shop-doc/syntax-highlighter/styles/shThemeDjango.css"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/Aroma Shop-doc/syntax-highlighter/styles/shThemeEclipse.css",
+      "PackagePath": "staticwebassets/aroma-master/Aroma Shop-doc/syntax-highlighter/styles/shThemeEclipse.css"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/Aroma Shop-doc/syntax-highlighter/styles/shThemeEmacs.css",
+      "PackagePath": "staticwebassets/aroma-master/Aroma Shop-doc/syntax-highlighter/styles/shThemeEmacs.css"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/Aroma Shop-doc/syntax-highlighter/styles/shThemeFadeToGrey.css",
+      "PackagePath": "staticwebassets/aroma-master/Aroma Shop-doc/syntax-highlighter/styles/shThemeFadeToGrey.css"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/Aroma Shop-doc/syntax-highlighter/styles/shThemeMDUltra.css",
+      "PackagePath": "staticwebassets/aroma-master/Aroma Shop-doc/syntax-highlighter/styles/shThemeMDUltra.css"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/Aroma Shop-doc/syntax-highlighter/styles/shThemeMidnight.css",
+      "PackagePath": "staticwebassets/aroma-master/Aroma Shop-doc/syntax-highlighter/styles/shThemeMidnight.css"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/Aroma Shop-doc/syntax-highlighter/styles/shThemeRDark.css",
+      "PackagePath": "staticwebassets/aroma-master/Aroma Shop-doc/syntax-highlighter/styles/shThemeRDark.css"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/blog.html",
+      "PackagePath": "staticwebassets/aroma-master/blog.html"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/cart.html",
+      "PackagePath": "staticwebassets/aroma-master/cart.html"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/category.html",
+      "PackagePath": "staticwebassets/aroma-master/category.html"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/checkout.html",
+      "PackagePath": "staticwebassets/aroma-master/checkout.html"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/confirmation.html",
+      "PackagePath": "staticwebassets/aroma-master/confirmation.html"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/contact.html",
+      "PackagePath": "staticwebassets/aroma-master/contact.html"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/css/main.css",
+      "PackagePath": "staticwebassets/aroma-master/css/main.css"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/css/style.css",
+      "PackagePath": "staticwebassets/aroma-master/css/style.css"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/Fevicon.png",
+      "PackagePath": "staticwebassets/aroma-master/img/Fevicon.png"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/Thumbs.db",
+      "PackagePath": "staticwebassets/aroma-master/img/Thumbs.db"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/blog/add.jpg",
+      "PackagePath": "staticwebassets/aroma-master/img/blog/add.jpg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/blog/author.jpg",
+      "PackagePath": "staticwebassets/aroma-master/img/blog/author.jpg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/blog/bbkm.jpeg",
+      "PackagePath": "staticwebassets/aroma-master/img/blog/bbkm.jpeg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/blog/blog1.png",
+      "PackagePath": "staticwebassets/aroma-master/img/blog/blog1.png"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/blog/blog2.png",
+      "PackagePath": "staticwebassets/aroma-master/img/blog/blog2.png"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/blog/blog3.png",
+      "PackagePath": "staticwebassets/aroma-master/img/blog/blog3.png"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/blog/c1.jpg",
+      "PackagePath": "staticwebassets/aroma-master/img/blog/c1.jpg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/blog/c2.jpg",
+      "PackagePath": "staticwebassets/aroma-master/img/blog/c2.jpg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/blog/c3.jpg",
+      "PackagePath": "staticwebassets/aroma-master/img/blog/c3.jpg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/blog/c4.jpg",
+      "PackagePath": "staticwebassets/aroma-master/img/blog/c4.jpg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/blog/c5.jpg",
+      "PackagePath": "staticwebassets/aroma-master/img/blog/c5.jpg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/blog/c6.jpg",
+      "PackagePath": "staticwebassets/aroma-master/img/blog/c6.jpg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/blog/cat-post/cat-post-1.jpg",
+      "PackagePath": "staticwebassets/aroma-master/img/blog/cat-post/cat-post-1.jpg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/blog/cat-post/cat-post-2.jpg",
+      "PackagePath": "staticwebassets/aroma-master/img/blog/cat-post/cat-post-2.jpg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/blog/cat-post/cat-post-3.jpg",
+      "PackagePath": "staticwebassets/aroma-master/img/blog/cat-post/cat-post-3.jpg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/blog/causes/causes-1.jpg",
+      "PackagePath": "staticwebassets/aroma-master/img/blog/causes/causes-1.jpg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/blog/causes/causes-2.jpg",
+      "PackagePath": "staticwebassets/aroma-master/img/blog/causes/causes-2.jpg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/blog/causes/causes-3.jpg",
+      "PackagePath": "staticwebassets/aroma-master/img/blog/causes/causes-3.jpg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/blog/dmain.jpeg",
+      "PackagePath": "staticwebassets/aroma-master/img/blog/dmain.jpeg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/blog/fdb.jpeg",
+      "PackagePath": "staticwebassets/aroma-master/img/blog/fdb.jpeg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/blog/fdb1.jpeg",
+      "PackagePath": "staticwebassets/aroma-master/img/blog/fdb1.jpeg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/blog/feature-img1.jpg",
+      "PackagePath": "staticwebassets/aroma-master/img/blog/feature-img1.jpg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/blog/latest-post/l-post-1.jpg",
+      "PackagePath": "staticwebassets/aroma-master/img/blog/latest-post/l-post-1.jpg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/blog/latest-post/l-post-2.jpg",
+      "PackagePath": "staticwebassets/aroma-master/img/blog/latest-post/l-post-2.jpg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/blog/latest-post/l-post-3.jpg",
+      "PackagePath": "staticwebassets/aroma-master/img/blog/latest-post/l-post-3.jpg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/blog/latest-post/l-post-4.jpg",
+      "PackagePath": "staticwebassets/aroma-master/img/blog/latest-post/l-post-4.jpg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/blog/main-blog/dostoevsky.jpeg",
+      "PackagePath": "staticwebassets/aroma-master/img/blog/main-blog/dostoevsky.jpeg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/blog/main-blog/m-blog-1.jpg",
+      "PackagePath": "staticwebassets/aroma-master/img/blog/main-blog/m-blog-1.jpg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/blog/main-blog/m-blog-2.jpg",
+      "PackagePath": "staticwebassets/aroma-master/img/blog/main-blog/m-blog-2.jpg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/blog/main-blog/m-blog-3.jpg",
+      "PackagePath": "staticwebassets/aroma-master/img/blog/main-blog/m-blog-3.jpg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/blog/main-blog/m-blog-4.jpg",
+      "PackagePath": "staticwebassets/aroma-master/img/blog/main-blog/m-blog-4.jpg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/blog/main-blog/m-blog-5.jpg",
+      "PackagePath": "staticwebassets/aroma-master/img/blog/main-blog/m-blog-5.jpg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/blog/main-blog/sylvia1.jpeg",
+      "PackagePath": "staticwebassets/aroma-master/img/blog/main-blog/sylvia1.jpeg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/blog/main-blog/virginia.jpeg",
+      "PackagePath": "staticwebassets/aroma-master/img/blog/main-blog/virginia.jpeg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/blog/main-blog/yukio.jpeg",
+      "PackagePath": "staticwebassets/aroma-master/img/blog/main-blog/yukio.jpeg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/blog/main-blog/zweig1.jpg",
+      "PackagePath": "staticwebassets/aroma-master/img/blog/main-blog/zweig1.jpg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/blog/next.jpg",
+      "PackagePath": "staticwebassets/aroma-master/img/blog/next.jpg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/blog/popular-post/post1.jpg",
+      "PackagePath": "staticwebassets/aroma-master/img/blog/popular-post/post1.jpg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/blog/popular-post/post2.jpg",
+      "PackagePath": "staticwebassets/aroma-master/img/blog/popular-post/post2.jpg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/blog/popular-post/post3.jpg",
+      "PackagePath": "staticwebassets/aroma-master/img/blog/popular-post/post3.jpg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/blog/popular-post/post4.jpg",
+      "PackagePath": "staticwebassets/aroma-master/img/blog/popular-post/post4.jpg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/blog/post-img1.jpg",
+      "PackagePath": "staticwebassets/aroma-master/img/blog/post-img1.jpg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/blog/post-img2.jpg",
+      "PackagePath": "staticwebassets/aroma-master/img/blog/post-img2.jpg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/blog/prev.jpg",
+      "PackagePath": "staticwebassets/aroma-master/img/blog/prev.jpg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/blog/sp.jpeg",
+      "PackagePath": "staticwebassets/aroma-master/img/blog/sp.jpeg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/blog/sp1.jpeg",
+      "PackagePath": "staticwebassets/aroma-master/img/blog/sp1.jpeg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/blog/spm.jpeg",
+      "PackagePath": "staticwebassets/aroma-master/img/blog/spm.jpeg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/blog/stz.jpeg",
+      "PackagePath": "staticwebassets/aroma-master/img/blog/stz.jpeg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/blog/stzwg1-min.jpeg",
+      "PackagePath": "staticwebassets/aroma-master/img/blog/stzwg1-min.jpeg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/blog/vb.jpeg",
+      "PackagePath": "staticwebassets/aroma-master/img/blog/vb.jpeg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/blog/vb1.jpeg",
+      "PackagePath": "staticwebassets/aroma-master/img/blog/vb1.jpeg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/blog/vwmain.jpeg",
+      "PackagePath": "staticwebassets/aroma-master/img/blog/vwmain.jpeg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/blog/ym.jpeg",
+      "PackagePath": "staticwebassets/aroma-master/img/blog/ym.jpeg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/blog/ymb.jpeg",
+      "PackagePath": "staticwebassets/aroma-master/img/blog/ymb.jpeg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/blog/ymb1.jpeg",
+      "PackagePath": "staticwebassets/aroma-master/img/blog/ymb1.jpeg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/cart.jpg",
+      "PackagePath": "staticwebassets/aroma-master/img/cart.jpg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/cart/cart1.png",
+      "PackagePath": "staticwebassets/aroma-master/img/cart/cart1.png"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/cart/cart2.png",
+      "PackagePath": "staticwebassets/aroma-master/img/cart/cart2.png"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/cart/cart3.png",
+      "PackagePath": "staticwebassets/aroma-master/img/cart/cart3.png"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/category/c1.jpg",
+      "PackagePath": "staticwebassets/aroma-master/img/category/c1.jpg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/category/c2.jpg",
+      "PackagePath": "staticwebassets/aroma-master/img/category/c2.jpg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/category/c3.jpg",
+      "PackagePath": "staticwebassets/aroma-master/img/category/c3.jpg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/category/c4.jpg",
+      "PackagePath": "staticwebassets/aroma-master/img/category/c4.jpg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/category/c5.jpg",
+      "PackagePath": "staticwebassets/aroma-master/img/category/c5.jpg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/category/s-p1.jpg",
+      "PackagePath": "staticwebassets/aroma-master/img/category/s-p1.jpg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/gallery/.DS_Store",
+      "PackagePath": "staticwebassets/aroma-master/img/gallery/.DS_Store"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/gallery/r1.jpg",
+      "PackagePath": "staticwebassets/aroma-master/img/gallery/r1.jpg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/gallery/r2.jpg",
+      "PackagePath": "staticwebassets/aroma-master/img/gallery/r2.jpg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/gallery/r3.jpg",
+      "PackagePath": "staticwebassets/aroma-master/img/gallery/r3.jpg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/gallery/r5.jpg",
+      "PackagePath": "staticwebassets/aroma-master/img/gallery/r5.jpg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/gallery/r7.jpg",
+      "PackagePath": "staticwebassets/aroma-master/img/gallery/r7.jpg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/gallery/r8.jpg",
+      "PackagePath": "staticwebassets/aroma-master/img/gallery/r8.jpg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/home/bi.jpeg",
+      "PackagePath": "staticwebassets/aroma-master/img/home/bi.jpeg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/home/bib.jpeg",
+      "PackagePath": "staticwebassets/aroma-master/img/home/bib.jpeg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/home/hero-banner.png",
+      "PackagePath": "staticwebassets/aroma-master/img/home/hero-banner.png"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/home/hero-slide1.png",
+      "PackagePath": "staticwebassets/aroma-master/img/home/hero-slide1.png"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/home/hero-slide2.png",
+      "PackagePath": "staticwebassets/aroma-master/img/home/hero-slide2.png"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/home/hero-slide3.png",
+      "PackagePath": "staticwebassets/aroma-master/img/home/hero-slide3.png"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/home/new-hero-banner.png",
+      "PackagePath": "staticwebassets/aroma-master/img/home/new-hero-banner.png"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/home/parallax-bg.png",
+      "PackagePath": "staticwebassets/aroma-master/img/home/parallax-bg.png"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/instagram/Image-01.jpg",
+      "PackagePath": "staticwebassets/aroma-master/img/instagram/Image-01.jpg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/instagram/Image-02.jpg",
+      "PackagePath": "staticwebassets/aroma-master/img/instagram/Image-02.jpg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/instagram/Image-03.jpg",
+      "PackagePath": "staticwebassets/aroma-master/img/instagram/Image-03.jpg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/instagram/Image-04.jpg",
+      "PackagePath": "staticwebassets/aroma-master/img/instagram/Image-04.jpg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/instagram/Image-05.jpg",
+      "PackagePath": "staticwebassets/aroma-master/img/instagram/Image-05.jpg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/instagram/Image-06.jpg",
+      "PackagePath": "staticwebassets/aroma-master/img/instagram/Image-06.jpg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/instagram/Image-07.jpg",
+      "PackagePath": "staticwebassets/aroma-master/img/instagram/Image-07.jpg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/instagram/Image-08.jpg",
+      "PackagePath": "staticwebassets/aroma-master/img/instagram/Image-08.jpg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/instagram/ins-1.jpg",
+      "PackagePath": "staticwebassets/aroma-master/img/instagram/ins-1.jpg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/instagram/ins-2.jpg",
+      "PackagePath": "staticwebassets/aroma-master/img/instagram/ins-2.jpg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/instagram/ins-3.jpg",
+      "PackagePath": "staticwebassets/aroma-master/img/instagram/ins-3.jpg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/instagram/ins-4.jpg",
+      "PackagePath": "staticwebassets/aroma-master/img/instagram/ins-4.jpg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/instagram/ins-5.jpg",
+      "PackagePath": "staticwebassets/aroma-master/img/instagram/ins-5.jpg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/instagram/ins-6.jpg",
+      "PackagePath": "staticwebassets/aroma-master/img/instagram/ins-6.jpg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/login.jpg",
+      "PackagePath": "staticwebassets/aroma-master/img/login.jpg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/logo.png",
+      "PackagePath": "staticwebassets/aroma-master/img/logo.png"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/logoo.png",
+      "PackagePath": "staticwebassets/aroma-master/img/logoo.png"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/product/card.jpg",
+      "PackagePath": "staticwebassets/aroma-master/img/product/card.jpg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/product/product-sm-1.png",
+      "PackagePath": "staticwebassets/aroma-master/img/product/product-sm-1.png"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/product/product-sm-2.png",
+      "PackagePath": "staticwebassets/aroma-master/img/product/product-sm-2.png"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/product/product-sm-3.png",
+      "PackagePath": "staticwebassets/aroma-master/img/product/product-sm-3.png"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/product/product-sm-4.png",
+      "PackagePath": "staticwebassets/aroma-master/img/product/product-sm-4.png"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/product/product-sm-5.png",
+      "PackagePath": "staticwebassets/aroma-master/img/product/product-sm-5.png"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/product/product-sm-6.png",
+      "PackagePath": "staticwebassets/aroma-master/img/product/product-sm-6.png"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/product/product-sm-7.png",
+      "PackagePath": "staticwebassets/aroma-master/img/product/product-sm-7.png"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/product/product-sm-8.png",
+      "PackagePath": "staticwebassets/aroma-master/img/product/product-sm-8.png"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/product/product-sm-9.png",
+      "PackagePath": "staticwebassets/aroma-master/img/product/product-sm-9.png"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/product/product1.png",
+      "PackagePath": "staticwebassets/aroma-master/img/product/product1.png"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/product/product2.png",
+      "PackagePath": "staticwebassets/aroma-master/img/product/product2.png"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/product/product3.png",
+      "PackagePath": "staticwebassets/aroma-master/img/product/product3.png"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/product/product4.png",
+      "PackagePath": "staticwebassets/aroma-master/img/product/product4.png"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/product/product5.png",
+      "PackagePath": "staticwebassets/aroma-master/img/product/product5.png"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/product/product6.png",
+      "PackagePath": "staticwebassets/aroma-master/img/product/product6.png"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/product/product7.png",
+      "PackagePath": "staticwebassets/aroma-master/img/product/product7.png"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/product/product8.png",
+      "PackagePath": "staticwebassets/aroma-master/img/product/product8.png"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/product/review-1.png",
+      "PackagePath": "staticwebassets/aroma-master/img/product/review-1.png"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/product/review-2.png",
+      "PackagePath": "staticwebassets/aroma-master/img/product/review-2.png"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/product/review-3.png",
+      "PackagePath": "staticwebassets/aroma-master/img/product/review-3.png"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/r1.jpg",
+      "PackagePath": "staticwebassets/aroma-master/img/r1.jpg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/r10.jpg",
+      "PackagePath": "staticwebassets/aroma-master/img/r10.jpg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/r11.jpg",
+      "PackagePath": "staticwebassets/aroma-master/img/r11.jpg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/r12.jpg",
+      "PackagePath": "staticwebassets/aroma-master/img/r12.jpg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/r2.jpg",
+      "PackagePath": "staticwebassets/aroma-master/img/r2.jpg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/r3.jpg",
+      "PackagePath": "staticwebassets/aroma-master/img/r3.jpg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/r4.jpg",
+      "PackagePath": "staticwebassets/aroma-master/img/r4.jpg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/r5.jpg",
+      "PackagePath": "staticwebassets/aroma-master/img/r5.jpg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/r6.jpg",
+      "PackagePath": "staticwebassets/aroma-master/img/r6.jpg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/r7.jpg",
+      "PackagePath": "staticwebassets/aroma-master/img/r7.jpg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/r8.jpg",
+      "PackagePath": "staticwebassets/aroma-master/img/r8.jpg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/img/r9.jpg",
+      "PackagePath": "staticwebassets/aroma-master/img/r9.jpg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/index.html",
+      "PackagePath": "staticwebassets/aroma-master/index.html"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/js/main.js",
+      "PackagePath": "staticwebassets/aroma-master/js/main.js"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/login.html",
+      "PackagePath": "staticwebassets/aroma-master/login.html"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/register.html",
+      "PackagePath": "staticwebassets/aroma-master/register.html"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/scss/main.scss",
+      "PackagePath": "staticwebassets/aroma-master/scss/main.scss"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/scss/style.scss",
+      "PackagePath": "staticwebassets/aroma-master/scss/style.scss"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/scss/theme/_blog.scss",
+      "PackagePath": "staticwebassets/aroma-master/scss/theme/_blog.scss"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/scss/theme/_btn.scss",
+      "PackagePath": "staticwebassets/aroma-master/scss/theme/_btn.scss"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/scss/theme/_cart.scss",
+      "PackagePath": "staticwebassets/aroma-master/scss/theme/_cart.scss"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/scss/theme/_category.scss",
+      "PackagePath": "staticwebassets/aroma-master/scss/theme/_category.scss"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/scss/theme/_checkout.scss",
+      "PackagePath": "staticwebassets/aroma-master/scss/theme/_checkout.scss"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/scss/theme/_confirmation.scss",
+      "PackagePath": "staticwebassets/aroma-master/scss/theme/_confirmation.scss"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/scss/theme/_contact.scss",
+      "PackagePath": "staticwebassets/aroma-master/scss/theme/_contact.scss"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/scss/theme/_footer.scss",
+      "PackagePath": "staticwebassets/aroma-master/scss/theme/_footer.scss"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/scss/theme/_header.scss",
+      "PackagePath": "staticwebassets/aroma-master/scss/theme/_header.scss"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/scss/theme/_home.scss",
+      "PackagePath": "staticwebassets/aroma-master/scss/theme/_home.scss"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/scss/theme/_instagram.scss",
+      "PackagePath": "staticwebassets/aroma-master/scss/theme/_instagram.scss"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/scss/theme/_login.scss",
+      "PackagePath": "staticwebassets/aroma-master/scss/theme/_login.scss"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/scss/theme/_mixins.scss",
+      "PackagePath": "staticwebassets/aroma-master/scss/theme/_mixins.scss"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/scss/theme/_register.scss",
+      "PackagePath": "staticwebassets/aroma-master/scss/theme/_register.scss"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/scss/theme/_reset.scss",
+      "PackagePath": "staticwebassets/aroma-master/scss/theme/_reset.scss"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/scss/theme/_responsive.scss",
+      "PackagePath": "staticwebassets/aroma-master/scss/theme/_responsive.scss"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/scss/theme/_section-intro.scss",
+      "PackagePath": "staticwebassets/aroma-master/scss/theme/_section-intro.scss"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/scss/theme/_single-product.scss",
+      "PackagePath": "staticwebassets/aroma-master/scss/theme/_single-product.scss"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/scss/theme/_tracking.scss",
+      "PackagePath": "staticwebassets/aroma-master/scss/theme/_tracking.scss"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/scss/theme/_variables.scss",
+      "PackagePath": "staticwebassets/aroma-master/scss/theme/_variables.scss"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/single-blog.html",
+      "PackagePath": "staticwebassets/aroma-master/single-blog.html"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/single-product.html",
+      "PackagePath": "staticwebassets/aroma-master/single-product.html"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/tracking-order.html",
+      "PackagePath": "staticwebassets/aroma-master/tracking-order.html"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/bootstrap/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/aroma-master/vendors/bootstrap/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/bootstrap/bootstrap.min.css",
+      "PackagePath": "staticwebassets/aroma-master/vendors/bootstrap/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/contact.js",
+      "PackagePath": "staticwebassets/aroma-master/vendors/contact.js"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/fontawesome/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/aroma-master/vendors/fontawesome/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/fontawesome/bootstrap.min.css",
+      "PackagePath": "staticwebassets/aroma-master/vendors/fontawesome/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/fontawesome/css/all.min.css",
+      "PackagePath": "staticwebassets/aroma-master/vendors/fontawesome/css/all.min.css"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/fontawesome/webfonts/fa-brands-400.eot",
+      "PackagePath": "staticwebassets/aroma-master/vendors/fontawesome/webfonts/fa-brands-400.eot"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/fontawesome/webfonts/fa-brands-400.ttf",
+      "PackagePath": "staticwebassets/aroma-master/vendors/fontawesome/webfonts/fa-brands-400.ttf"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/fontawesome/webfonts/fa-brands-400.woff",
+      "PackagePath": "staticwebassets/aroma-master/vendors/fontawesome/webfonts/fa-brands-400.woff"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/fontawesome/webfonts/fa-brands-400.woff2",
+      "PackagePath": "staticwebassets/aroma-master/vendors/fontawesome/webfonts/fa-brands-400.woff2"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/fontawesome/webfonts/fa-regular-400.eot",
+      "PackagePath": "staticwebassets/aroma-master/vendors/fontawesome/webfonts/fa-regular-400.eot"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/fontawesome/webfonts/fa-regular-400.ttf",
+      "PackagePath": "staticwebassets/aroma-master/vendors/fontawesome/webfonts/fa-regular-400.ttf"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/fontawesome/webfonts/fa-regular-400.woff",
+      "PackagePath": "staticwebassets/aroma-master/vendors/fontawesome/webfonts/fa-regular-400.woff"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/fontawesome/webfonts/fa-regular-400.woff2",
+      "PackagePath": "staticwebassets/aroma-master/vendors/fontawesome/webfonts/fa-regular-400.woff2"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/fontawesome/webfonts/fa-solid-900.eot",
+      "PackagePath": "staticwebassets/aroma-master/vendors/fontawesome/webfonts/fa-solid-900.eot"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/fontawesome/webfonts/fa-solid-900.ttf",
+      "PackagePath": "staticwebassets/aroma-master/vendors/fontawesome/webfonts/fa-solid-900.ttf"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/fontawesome/webfonts/fa-solid-900.woff",
+      "PackagePath": "staticwebassets/aroma-master/vendors/fontawesome/webfonts/fa-solid-900.woff"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/fontawesome/webfonts/fa-solid-900.woff2",
+      "PackagePath": "staticwebassets/aroma-master/vendors/fontawesome/webfonts/fa-solid-900.woff2"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/jquery.ajaxchimp.min.js",
+      "PackagePath": "staticwebassets/aroma-master/vendors/jquery.ajaxchimp.min.js"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/jquery.form.js",
+      "PackagePath": "staticwebassets/aroma-master/vendors/jquery.form.js"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/aroma-master/vendors/jquery.validate.min.js"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/jquery/jquery-3.2.1.min.js",
+      "PackagePath": "staticwebassets/aroma-master/vendors/jquery/jquery-3.2.1.min.js"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/linericon/.DS_Store",
+      "PackagePath": "staticwebassets/aroma-master/vendors/linericon/.DS_Store"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/linericon/fonts/Linearicons-Free.eot",
+      "PackagePath": "staticwebassets/aroma-master/vendors/linericon/fonts/Linearicons-Free.eot"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/linericon/fonts/Linearicons-Free.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/linericon/fonts/Linearicons-Free.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/linericon/fonts/Linearicons-Free.ttf",
+      "PackagePath": "staticwebassets/aroma-master/vendors/linericon/fonts/Linearicons-Free.ttf"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/linericon/fonts/Linearicons-Free.woff",
+      "PackagePath": "staticwebassets/aroma-master/vendors/linericon/fonts/Linearicons-Free.woff"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/linericon/fonts/Linearicons-Free.woff2",
+      "PackagePath": "staticwebassets/aroma-master/vendors/linericon/fonts/Linearicons-Free.woff2"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/linericon/style.css",
+      "PackagePath": "staticwebassets/aroma-master/vendors/linericon/style.css"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/mail-script.js",
+      "PackagePath": "staticwebassets/aroma-master/vendors/mail-script.js"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/nice-select/jquery.nice-select.min.js",
+      "PackagePath": "staticwebassets/aroma-master/vendors/nice-select/jquery.nice-select.min.js"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/nice-select/nice-select.css",
+      "PackagePath": "staticwebassets/aroma-master/vendors/nice-select/nice-select.css"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/nouislider/nouislider.min.css",
+      "PackagePath": "staticwebassets/aroma-master/vendors/nouislider/nouislider.min.css"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/nouislider/nouislider.min.js",
+      "PackagePath": "staticwebassets/aroma-master/vendors/nouislider/nouislider.min.js"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/owl-carousel/owl.carousel.min.css",
+      "PackagePath": "staticwebassets/aroma-master/vendors/owl-carousel/owl.carousel.min.css"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/owl-carousel/owl.carousel.min.js",
+      "PackagePath": "staticwebassets/aroma-master/vendors/owl-carousel/owl.carousel.min.js"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/owl-carousel/owl.theme.default.min.css",
+      "PackagePath": "staticwebassets/aroma-master/vendors/owl-carousel/owl.theme.default.min.css"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/skrollr.min.js",
+      "PackagePath": "staticwebassets/aroma-master/vendors/skrollr.min.js"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/Italic.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/Italic.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/agenda.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/agenda.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/alarm-clock.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/alarm-clock.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/alert.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/alert.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/align-center.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/align-center.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/align-justify.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/align-justify.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/align-left.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/align-left.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/align-right.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/align-right.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/anchor.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/anchor.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/android.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/android.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/angle-double-down.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/angle-double-down.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/angle-double-left.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/angle-double-left.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/angle-double-right.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/angle-double-right.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/angle-double-up.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/angle-double-up.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/angle-down.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/angle-down.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/angle-left.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/angle-left.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/angle-right.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/angle-right.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/angle-up.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/angle-up.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/announcement.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/announcement.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/apple.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/apple.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/archive.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/archive.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/arrow-circle-down.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/arrow-circle-down.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/arrow-circle-left.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/arrow-circle-left.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/arrow-circle-right.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/arrow-circle-right.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/arrow-circle-up.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/arrow-circle-up.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/arrow-down.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/arrow-down.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/arrow-left.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/arrow-left.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/arrow-right.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/arrow-right.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/arrow-top-left.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/arrow-top-left.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/arrow-top-right.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/arrow-top-right.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/arrow-up.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/arrow-up.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/arrow.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/arrow.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/arrows-corner.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/arrows-corner.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/arrows-horizontal.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/arrows-horizontal.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/arrows-vertical.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/arrows-vertical.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/back-left.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/back-left.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/back-right.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/back-right.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/bag.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/bag.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/bar-chart-alt.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/bar-chart-alt.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/bar-chart.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/bar-chart.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/basketball.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/basketball.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/bell.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/bell.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/blackboard.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/blackboard.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/bolt-alt.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/bolt-alt.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/bolt.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/bolt.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/book.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/book.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/bookmark-alt.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/bookmark-alt.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/bookmark.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/bookmark.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/briefcase.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/briefcase.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/brush-alt.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/brush-alt.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/brush.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/brush.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/calendar.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/calendar.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/camera.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/camera.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/car.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/car.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/check-box.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/check-box.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/check.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/check.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/clip.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/clip.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/clipboard.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/clipboard.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/close.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/close.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/cloud-down.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/cloud-down.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/cloud-up.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/cloud-up.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/cloud.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/cloud.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/comment-alt.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/comment-alt.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/comment.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/comment.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/comments-smiley.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/comments-smiley.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/comments.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/comments.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/control-backward.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/control-backward.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/control-eject.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/control-eject.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/control-forward.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/control-forward.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/control-pause.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/control-pause.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/control-play.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/control-play.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/control-record.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/control-record.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/control-shuffle.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/control-shuffle.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/control-skip-backward.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/control-skip-backward.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/control-skip-forward.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/control-skip-forward.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/control-stop.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/control-stop.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/credit-card.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/credit-card.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/crown.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/crown.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/css3.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/css3.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/cup.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/cup.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/cut.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/cut.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/dashboard.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/dashboard.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/desktop.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/desktop.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/direction-alt.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/direction-alt.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/direction.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/direction.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/download.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/download.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/dribbble.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/dribbble.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/dropbox-alt.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/dropbox-alt.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/dropbox.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/dropbox.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/drupal.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/drupal.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/email.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/email.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/envelope.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/envelope.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/eraser.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/eraser.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/exchange-vertical.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/exchange-vertical.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/export.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/export.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/eye.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/eye.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/face-sad.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/face-sad.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/face-smile.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/face-smile.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/facebook.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/facebook.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/file.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/file.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/files.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/files.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/filter.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/filter.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/flag-alt-2.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/flag-alt-2.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/flag-alt.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/flag-alt.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/flag.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/flag.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/flickr-alt.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/flickr-alt.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/flickr.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/flickr.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/folder.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/folder.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/fullscreen.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/fullscreen.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/gallery.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/gallery.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/game.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/game.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/gift.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/gift.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/github.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/github.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/google.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/google.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/hand-drag.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/hand-drag.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/hand-open.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/hand-open.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/hand-point-down.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/hand-point-down.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/hand-point-left.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/hand-point-left.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/hand-point-right.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/hand-point-right.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/hand-point-up.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/hand-point-up.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/hand-stop.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/hand-stop.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/harddrive.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/harddrive.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/harddrives.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/harddrives.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/headphone-alt.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/headphone-alt.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/headphone.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/headphone.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/heart-broken.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/heart-broken.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/heart.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/heart.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/help-alt.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/help-alt.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/help.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/help.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/home.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/home.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/html5.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/html5.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/hummer.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/hummer.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/id-badge.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/id-badge.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/image.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/image.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/import.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/import.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/infinite.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/infinite.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/info-alt.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/info-alt.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/info.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/info.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/ink-pen.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/ink-pen.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/instagram.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/instagram.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/joomla.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/joomla.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/jsfiddle.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/jsfiddle.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/key.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/key.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/layers-alt.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/layers-alt.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/layers.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/layers.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/layout-accordion-list.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/layout-accordion-list.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/layout-accordion-merged.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/layout-accordion-merged.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/layout-accordion-separated.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/layout-accordion-separated.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/layout-column2-alt.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/layout-column2-alt.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/layout-column2.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/layout-column2.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/layout-column3-alt.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/layout-column3-alt.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/layout-column3.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/layout-column3.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/layout-column4-alt.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/layout-column4-alt.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/layout-column4.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/layout-column4.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/layout-cta-btn-left.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/layout-cta-btn-left.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/layout-cta-btn-right.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/layout-cta-btn-right.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/layout-cta-center.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/layout-cta-center.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/layout-cta-left.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/layout-cta-left.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/layout-cta-right.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/layout-cta-right.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/layout-grid2-alt.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/layout-grid2-alt.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/layout-grid2-thumb.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/layout-grid2-thumb.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/layout-grid2.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/layout-grid2.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/layout-grid3-alt.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/layout-grid3-alt.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/layout-grid3.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/layout-grid3.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/layout-grid4-alt.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/layout-grid4-alt.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/layout-grid4.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/layout-grid4.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/layout-line-solid.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/layout-line-solid.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/layout-list-large-image.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/layout-list-large-image.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/layout-list-post.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/layout-list-post.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/layout-list-thumb-alt.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/layout-list-thumb-alt.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/layout-list-thumb.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/layout-list-thumb.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/layout-media-center-alt.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/layout-media-center-alt.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/layout-media-center.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/layout-media-center.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/layout-media-left-alt.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/layout-media-left-alt.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/layout-media-left.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/layout-media-left.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/layout-media-overlay-alt-2.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/layout-media-overlay-alt-2.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/layout-media-overlay-alt.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/layout-media-overlay-alt.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/layout-media-overlay.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/layout-media-overlay.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/layout-media-right-alt.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/layout-media-right-alt.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/layout-media-right.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/layout-media-right.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/layout-menu-full.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/layout-menu-full.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/layout-menu-separated.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/layout-menu-separated.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/layout-menu-v.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/layout-menu-v.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/layout-menu.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/layout-menu.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/layout-placeholder.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/layout-placeholder.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/layout-sidebar-2.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/layout-sidebar-2.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/layout-sidebar-left.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/layout-sidebar-left.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/layout-sidebar-none.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/layout-sidebar-none.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/layout-sidebar-right.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/layout-sidebar-right.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/layout-slider-alt.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/layout-slider-alt.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/layout-slider.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/layout-slider.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/layout-tab-min.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/layout-tab-min.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/layout-tab-v.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/layout-tab-v.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/layout-tab-window.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/layout-tab-window.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/layout-tab.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/layout-tab.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/layout-width-default-alt.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/layout-width-default-alt.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/layout-width-default.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/layout-width-default.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/layout-width-full.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/layout-width-full.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/layout.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/layout.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/light-bulb.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/light-bulb.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/line-dashed.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/line-dashed.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/line-dotted.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/line-dotted.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/line-double.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/line-double.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/link.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/link.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/linkedin.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/linkedin.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/linux.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/linux.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/list-ol.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/list-ol.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/list.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/list.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/location-arrow.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/location-arrow.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/location-pin.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/location-pin.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/lock.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/lock.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/loop.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/loop.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/magnet.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/magnet.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/map-alt.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/map-alt.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/map.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/map.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/marker-alt.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/marker-alt.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/marker.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/marker.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/medall-alt.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/medall-alt.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/medall.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/medall.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/menu-alt.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/menu-alt.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/menu.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/menu.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/microphone-alt.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/microphone-alt.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/microphone.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/microphone.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/microsoft-alt.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/microsoft-alt.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/microsoft.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/microsoft.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/minus.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/minus.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/mobile.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/mobile.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/money.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/money.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/more-alt.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/more-alt.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/more.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/more.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/mouse-alt.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/mouse-alt.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/mouse.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/mouse.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/music-alt.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/music-alt.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/music.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/music.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/na.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/na.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/new-window.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/new-window.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/notepad.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/notepad.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/package.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/package.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/paint-bucket.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/paint-bucket.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/paint-roller.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/paint-roller.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/palette.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/palette.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/panel.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/panel.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/paragraph.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/paragraph.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/pencil-alt.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/pencil-alt.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/pencil-alt2.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/pencil-alt2.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/pencil.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/pencil.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/pie-chart.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/pie-chart.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/pin-alt.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/pin-alt.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/pin.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/pin.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/pin2.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/pin2.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/pinterest-alt.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/pinterest-alt.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/pinterest.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/pinterest.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/plug.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/plug.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/plus.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/plus.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/power-off.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/power-off.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/printer.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/printer.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/pulse.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/pulse.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/quote-left.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/quote-left.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/quote-right.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/quote-right.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/receipt.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/receipt.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/reddit.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/reddit.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/reload.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/reload.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/rocket.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/rocket.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/rss-alt.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/rss-alt.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/rss.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/rss.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/ruler-alt-2.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/ruler-alt-2.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/ruler-alt.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/ruler-alt.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/ruler-pencil.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/ruler-pencil.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/ruler.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/ruler.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/save-alt.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/save-alt.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/save.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/save.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/search.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/search.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/server.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/server.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/settings.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/settings.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/share-alt.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/share-alt.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/share.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/share.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/sharethis-alt.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/sharethis-alt.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/sharethis.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/sharethis.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/shield.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/shield.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/shift-left-alt.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/shift-left-alt.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/shift-left.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/shift-left.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/shift-right-alt.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/shift-right-alt.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/shift-right.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/shift-right.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/shine.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/shine.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/shopping-cart-full.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/shopping-cart-full.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/shopping-cart.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/shopping-cart.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/shortcode.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/shortcode.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/signal.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/signal.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/skype.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/skype.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/slice.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/slice.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/smallcap.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/smallcap.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/soundcloud.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/soundcloud.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/split-h.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/split-h.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/split-v-alt.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/split-v-alt.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/split-v.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/split-v.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/spray.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/spray.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/stack-overflow.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/stack-overflow.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/stamp.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/stamp.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/star.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/star.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/stats-down.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/stats-down.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/stats-up.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/stats-up.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/support.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/support.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/tablet.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/tablet.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/tag.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/tag.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/target.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/target.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/text.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/text.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/themify-favicon-alt.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/themify-favicon-alt.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/themify-favicon.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/themify-favicon.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/themify-logo.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/themify-logo.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/thought.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/thought.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/thumb-down.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/thumb-down.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/thumb-up.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/thumb-up.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/ticket.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/ticket.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/time.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/time.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/timer.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/timer.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/trash.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/trash.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/trello.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/trello.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/truck.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/truck.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/tumblr-alt.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/tumblr-alt.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/tumblr.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/tumblr.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/twitter-alt.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/twitter-alt.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/twitter.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/twitter.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/underline.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/underline.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/unlink.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/unlink.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/unlock.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/unlock.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/upload.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/upload.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/uppercase.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/uppercase.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/user.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/user.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/vector.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/vector.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/video-camera.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/video-camera.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/video-clapper.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/video-clapper.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/view-grid.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/view-grid.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/view-list-alt.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/view-list-alt.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/view-list.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/view-list.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/vimeo-alt.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/vimeo-alt.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/vimeo.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/vimeo.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/volume.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/volume.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/wallet.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/wallet.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/wand.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/wand.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/wheelchair.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/wheelchair.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/widget-alt.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/widget-alt.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/widget.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/widget.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/widgetized.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/widgetized.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/window.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/window.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/wordpress.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/wordpress.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/world.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/world.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/write.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/write.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/yahoo.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/yahoo.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/youtube.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/youtube.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/zip.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/zip.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/zoom-in.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/zoom-in.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/SVG/zoom-out.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/SVG/zoom-out.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/Themify IconFonts 5-23-2014.json",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/Themify IconFonts 5-23-2014.json"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/demo-files/demo.css",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/demo-files/demo.css"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/fonts/themify.eot",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/fonts/themify.eot"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/fonts/themify.svg",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/fonts/themify.svg"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/fonts/themify.ttf",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/fonts/themify.ttf"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/fonts/themify.woff",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/fonts/themify.woff"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/ie7/ie7.css",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/ie7/ie7.css"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/ie7/ie7.js",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/ie7/ie7.js"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/index.html",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/index.html"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/readme.txt",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/readme.txt"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/aroma-master/vendors/themify-icons/themify-icons.css",
+      "PackagePath": "staticwebassets/aroma-master/vendors/themify-icons/themify-icons.css"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/lib/jquery/dist/jquery.slim.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.slim.js"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/lib/jquery/dist/jquery.slim.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.slim.min.js"
+    },
+    {
+      "Id": "/Users/rabiaozcan/RiderProjects/kitaponerisi/Kitap/wwwroot/lib/jquery/dist/jquery.slim.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.slim.min.map"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.KitapOneri.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.KitapOneri.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.KitapOneri.props",
+      "PackagePath": "build\\KitapOneri.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.KitapOneri.props",
+      "PackagePath": "buildMultiTargeting\\KitapOneri.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.KitapOneri.props",
+      "PackagePath": "buildTransitive\\KitapOneri.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
