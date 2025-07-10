@@ -60,8 +60,6 @@ Merhaba! Bu proje, kullanıcıların kitap arayabileceği, öneri alabileceği v
 
 <img width="1467" alt="Ekran Resmi 2025-07-08 09 57 40" src="https://github.com/user-attachments/assets/9e349de2-2da8-4eb4-b78a-e98e2ccc40c9" />
 
-<img width="1464" alt="Ekran Resmi 2025-07-08 10 08 11" src="https://github.com/user-attachments/assets/47916e6d-9b57-4671-ab60-0a31fadfa33a" />
-
 <img width="1466" alt="Ekran Resmi 2025-07-08 10 02 08" src="https://github.com/user-attachments/assets/76ae2078-5657-4557-a0f7-69ba9dd61ab1" />
 
 <img width="1460" alt="Ekran Resmi 2025-07-08 10 02 33" src="https://github.com/user-attachments/assets/e68547f9-d8ab-4b7f-9ace-c6d06d797a32" />
